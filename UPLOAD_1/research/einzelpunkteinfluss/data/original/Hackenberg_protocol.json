@@ -1,0 +1,52 @@
+{
+  "source_url": "https://mediatum.ub.tum.de/doc/1575003/1575003.pdf",
+  "article_doi": "10.1016/j.carbpol.2017.12.064",
+  "source_pdf_page": 51,
+  "printed_article_page": 155,
+  "figure": "1B",
+  "original_pdf_sha256": "ee8988341de325908101e32abd1e34431a91c28eeb023a173af99afef8253bad",
+  "crop_definition_pdf_points": [
+    238,
+    114,
+    370,
+    238
+  ],
+  "render_scale": 6,
+  "crop_image_sha256": "d409326e75c7a35e10e8cd05fe295c7310bad7d0b13077c9f0b1a49c7e0f720c",
+  "crop_image_size": [
+    792,
+    744
+  ],
+  "anchors": {
+    "x_time_zero": 49.0,
+    "x_time_180": 754.0,
+    "y_maltose_zero": 590.0,
+    "y_maltose_50": 166.0
+  },
+  "centroid_rule": "manual symbol class and y-window choice; mean of pixels darker than 125 in 15x15 window, including possible line contribution",
+  "time_values": "nominal times reported in methods, not fitted from x coordinates",
+  "initial_values": "printed means; not exact latent initial concentrations",
+  "SEM": "figure caption reports SEM n=3; no pointwise SEM inferred from visible pixel widths",
+  "replication": "reported measurement triplicates; independent biological lots not established",
+  "temperature_C": 30,
+  "water_addition": "3 mL per 0.2 g flour before reaction stop",
+  "water_to_flour_before_quench_mL_per_g": 15,
+  "analytical_basis": "mg maltose per g dry flour",
+  "assay": "HPAEC-ED",
+  "measurement_status": "technical_pilot_not_released_for_external_transfer",
+  "independent_human_reading": false,
+  "early_fit_times_min": [
+    5,
+    10,
+    20,
+    60
+  ],
+  "late_exploratory_times_min": [
+    120,
+    180
+  ],
+  "initial_product_used_as_input": true,
+  "preplanned_blinded_test": false,
+  "parameter_bounds": "working numerical limits not material constants",
+  "plot": "own plotted reconstruction and model fits; no original figure redistributed"
+}

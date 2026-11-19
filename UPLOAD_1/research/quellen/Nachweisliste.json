@@ -1,0 +1,102 @@
+{
+  "claims": [
+    {
+      "id": "N01",
+      "claim": "Anfangsrate und Abklingparameter rekonstruierbar",
+      "evidence": "Kapitel 5, Gleichungen 22–30, 48–60",
+      "kind": "Analytischer Nachweis",
+      "limit": "Positive Anfangsrate, bekannte Produktskala, bestimmbare Anfangsinformation und ideale Beobachtung.",
+      "status": "Unter Modellvoraussetzungen belegt"
+    },
+    {
+      "id": "N02",
+      "claim": "Vollständige positive Lösungsfamilien und Kalibrierbeziehungen",
+      "evidence": "Kapitel 5, Gleichungen 68–81",
+      "kind": "Algebraische Ableitung",
+      "limit": "Referenzroute verlangt effektives ρη und native Konstanz. Assayroute verlangt κ für dieselbe native Prozessgröße.",
+      "status": "Unter Messgleichungen belegt"
+    },
+    {
+      "id": "N03",
+      "claim": "Nichtnegative und bilanzierte Zustände im eigenen Pool-Modell",
+      "evidence": "Kapitel 4, Gleichung 21",
+      "kind": "Analytischer Nachweis",
+      "limit": "Kein Nachweis einer isolierbaren realen Stärkefraktion.",
+      "status": "Unter Modellvoraussetzungen belegt"
+    },
+    {
+      "id": "N04",
+      "claim": "Bedingter Gegenfall zum positiven Summensignal",
+      "evidence": "Kapitel 8, Gleichung 82 und Tabelle 31, [12]",
+      "kind": "Transkription und eigene Rechnung",
+      "limit": "Betrifft eine bezeichnete Teilstruktur. Der vollständige publizierte Fit wird nicht reproduziert oder widerlegt.",
+      "status": "Bedingter Nachweis"
+    },
+    {
+      "id": "N05",
+      "claim": "Vergleich von E, W und konstanter Fortschreibung",
+      "evidence": "Kapitel 6 und 7, Tabellen 22, 27, 29 und 30",
+      "kind": "Retrospektive Sekundäranalyse",
+      "limit": "Vier Weizenmehlkurven aus zwei Publikationsfamilien. Technische Annahmenvariationen sind keine experimentellen Wahrscheinlichkeiten.",
+      "status": "Für die bezeichneten Daten belegt"
+    },
+    {
+      "id": "N06",
+      "claim": "Globale maximale Exponentialfehler",
+      "evidence": "Kapitel 9, Tabelle 33 und Zertifikatsprogramme",
+      "kind": "Rationale Fehlerzertifikate",
+      "limit": "Anpassung aller Nominalpunkte. Kein Zertifikat für Vorhersagefehler oder Messstreuung.",
+      "status": "Für die bezeichnete Kurvenklasse belegt"
+    },
+    {
+      "id": "N07",
+      "claim": "INFOGEST-Temperaturumrechnung",
+      "evidence": "Kapitel 5, Abschnitt assayinterne Umrechnung, [36]",
+      "kind": "Sekundäranalyse mit Laborausschluss",
+      "limit": "20 Aktivitätspaare, fünf Labore. Keine Kalibrierung der nativen Mehlmaltosebildung.",
+      "status": "Für den getrennten Assayfall belegt"
+    },
+    {
+      "id": "N08",
+      "claim": "Assayaktivität benötigt eine passende Prozessmessbeziehung",
+      "evidence": "Kapitel 2 und 5, [29, 83–85]",
+      "kind": "Modellbedingung und fachlicher Kontext",
+      "limit": "Die zitierten Studien ersetzen keine experimentelle Bestimmung von κ oder ρη im eigenen Mehlprozess.",
+      "status": "Bedingung begründet, Transfer offen"
+    },
+    {
+      "id": "N09",
+      "claim": "Abgrenzung zu etablierten Methoden",
+      "evidence": "Kapitel 11, [30, 40–49, 77, 81–85]",
+      "kind": "Gezielter Literaturvergleich",
+      "limit": "Die vier Volltextlücken [27, 28, 30, 85] erlauben keinen umfassenden Prioritätsausschluss. Historische Erstmaligkeit wird nicht beansprucht.",
+      "status": "Begrenzter Vergleich abgeschlossen"
+    },
+    {
+      "id": "N10",
+      "claim": "Triticale-Messplan und möglicher praktischer Nutzen",
+      "evidence": "Kapitel 10 und 11, Tabellen 39 und 41",
+      "kind": "Ableitung des Informationsbedarfs",
+      "limit": "Backqualität und Ernährungssicherung benötigen eigene Zielgrößen, Materialprüfungen und einen kontrollierten Backvergleich.",
+      "status": "Anwendungsperspektive"
+    },
+    {
+      "id": "N11",
+      "claim": "Rechnerische Überprüfbarkeit",
+      "evidence": "pruefung/F36_Rechenabnahme_ueberblick.json und reproduce.py",
+      "kind": "Programme, Datenzuordnung und Integritätsprüfung",
+      "limit": "Kontrollen gehören demselben KI-gestützten Projekt an. Unabhängige menschliche Doppelablesung und externe Fachprüfung fehlen.",
+      "status": "Technisch dokumentiert"
+    },
+    {
+      "id": "N12",
+      "claim": "Quellenprüfung dieses Schrittes abgeschlossen",
+      "evidence": "quellen/Lesetiefe_und_Grenzen.json und quellen/literatur.json",
+      "kind": "Zugriffsdokumentation und Textabgleich",
+      "limit": "Abschluss bezeichnet die Prüfung und die redaktionellen Entscheidungen. Vier Volltexte bleiben offen. Kein vollständiger Neuheitsnachweis.",
+      "status": "Gezielte Prüfung abgeschlossen"
+    }
+  ],
+  "basis_version": 35,
+  "edition": "1.0"
+}

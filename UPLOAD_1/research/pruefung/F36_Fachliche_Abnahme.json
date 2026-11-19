@@ -1,0 +1,84 @@
+{
+  "version": 36,
+  "date": "18. November 2026",
+  "author": "Stefan Traublinger",
+  "decision": "Inhaltliche Schlussabnahme im ausgewiesenen Modell- und Datenumfang bestanden.",
+  "status": "PASS_WITH_STATED_LIMITS",
+  "numerical_results_changed": false,
+  "claims": [
+    {
+      "id": "M01",
+      "claim": "Minimalmodell und Drei-Punkt-Rekonstruktion",
+      "location": "Kapitel 5, Gleichungen 22 bis 34",
+      "reasoning": "Ableitungen, Quotient aufeinanderfolgender Zuwächse, Rückrechnung von P0 und Positivitätsbedingung nachvollzogen. Sonderfälle b=0 und d=0 getrennt.",
+      "check": "Symbolische Identitäten und 48 deterministische Rekonstruktionen. 384 Ecken für die harten Fehlerschranken.",
+      "limit": "Bekannte Produktskala, positive fallende Zuwächse und das bezeichnete Minimalmodell. Kein beliebiger Teigprozess."
+    },
+    {
+      "id": "M02",
+      "claim": "Endlicher zugänglicher Pool",
+      "location": "Kapitel 4 und 5",
+      "reasoning": "Implizite Lösung differenziert. Nichtnegativität, Monotonie, Mengenbilanz und strikt positiver Restpool für endliche Zeiten unter den Modellannahmen geprüft.",
+      "check": "Neue ODE-Integration in 36 Fällen gegen die geschlossene Lösung.",
+      "limit": "rho=0 ist ein stetiger mathematischer Grenzfall. Der endliche Zeithorizont gilt für die gesonderte Mengenprüfung des Minimalmodells."
+    },
+    {
+      "id": "M03",
+      "claim": "Gemeinsame und getrennte Messkanäle",
+      "location": "Kapitel 5, insbesondere Tabellen 16 bis 18",
+      "reasoning": "Positive Skalierungen erhalten alle Signale. Die direkten inversen Familien erfassen alle positiven Lösungen. Bekannte Referenzwirkung benötigt nativen Bestandserhalt.",
+      "check": "Symbolische Invarianz, Rangminoren und Einsetzen der vollständigen inversen Familien. Gegenbeispiel trotz linearer Dosisantwort.",
+      "limit": "Algebraisches Messmodell. Ein Extraktassay muss auf denselben nativen Prozessparameter kalibriert sein. Wiederfindung allein genügt nicht."
+    },
+    {
+      "id": "M04",
+      "claim": "Unsicherheit und Kalibrierbereiche",
+      "location": "Kapitel 5, Gleichungen 31 bis 34, 62 und 78 bis 81",
+      "reasoning": "Gradienten und gemeinsame Beobachtung im Kovarianzterm geprüft. Harmonischer Minimaxpunkt durch Ausgleich der beiden Randfehler begründet.",
+      "check": "Symbolik, scharfe Fehlerwürfelecken und synthetische Bereichsrechnung.",
+      "limit": "Lineare Unsicherheitsfortpflanzung lokal. Deterministische Bereiche sind keine Konfidenzintervalle. Keine optimale Enzymdosis abgeleitet."
+    },
+    {
+      "id": "E01",
+      "claim": "Vier Mehlkurven und Assayvergleich",
+      "location": "Kapitel 6 und 7, Tabellen 13, 14 und 35",
+      "reasoning": "Anpassung früher Punkte von späterer Prüfung getrennt. Einheiten und Ausgangswerte je Familie erhalten. INFOGEST laborweise ohne Daten des Prüflabors geschätzt.",
+      "check": "Zwölf nominale E W P2 Anpassungen neu optimiert. INFOGEST aus CSV erneut und separat berechnet.",
+      "limit": "Zwei Publikationsfamilien, keine unabhängigen Mehlchargen. 20 Aktivitätspaare prüfen eine andere Messbrücke."
+    },
+    {
+      "id": "E02",
+      "claim": "Globale nominale Exponentialgrenzen",
+      "location": "Kapitel 7 und zertifizierte_fehlergrenzen/PROOF.md",
+      "reasoning": "Vier alternierende Residuen erzwingen bei einer strikt besseren Kurve mindestens drei Differenznullstellen. Die Differenz zweier Exponentialkurven besitzt höchstens zwei, sofern sie nicht identisch ist. Rationale Einschließungen liefern Unter- und Obergrenze.",
+      "check": "Vier vorhandene Zertifikate exakt rational erneut geprüft. Monotoniegrenze und auswärts gerundete Verbesserungsschranken nachgerechnet.",
+      "limit": "Endliche nominale Punktmenge und bezeichnete Modellklasse. Keine experimentelle Unsicherheitsgrenze und keine Vorhersagegarantie."
+    },
+    {
+      "id": "E03",
+      "claim": "Bedingtes Gegenbeispiel aus einem transkribierten Teilmodell",
+      "location": "Kapitel 8",
+      "reasoning": "Negativer Quellterm folgt aus den im Manuskript bezeichneten Anfangswerten und bleibt im betrachteten Rundungsbereich negativ.",
+      "check": "Exakter Wert -0.1174246 und sämtliche Rundungsecken kontrolliert.",
+      "limit": "Keine Rekonstruktion oder Widerlegung der vollständigen Originalanpassung von Padierna-Vanegas und Mitautoren."
+    },
+    {
+      "id": "A01",
+      "claim": "Triticale und Ernährungssicherung",
+      "location": "Kapitel 11",
+      "reasoning": "Modellresultat, sekundäre Weizenmessungen und vorgeschlagener Triticale-Pilotplan sind im Schluss getrennt. Technologische Zielgrößen erfordern eigene Messungen.",
+      "check": "Aussagenabgleich mit empirischer Grundlage und den im Kapitel beschriebenen Prüfbedingungen.",
+      "limit": "Kein nachgewiesen verbessertes Triticalebrot, keine bewiesene Kostenersparnis oder Wirkung gegen Hunger."
+    }
+  ],
+  "new_experiments": 0,
+  "independent_human_review": false,
+  "historical_priority_established": false,
+  "source_scope": "Gezielter Abgleich vorhandener Quellenentscheidungen. Keine erneute Volltextprüfung sämtlicher 85 Literaturangaben.",
+  "remaining_full_text_gaps": [
+    27,
+    28,
+    30,
+    85
+  ]
+}

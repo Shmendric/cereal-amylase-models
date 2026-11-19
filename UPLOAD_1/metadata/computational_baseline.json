@@ -1,0 +1,16 @@
+{
+  "source_archive_name": "Getreideamylasen_Ausgabe1_0_Veroeffentlichungspaket.zip",
+  "source_archive_bytes": 4717322,
+  "source_archive_sha256": "b280dd0008912b3f6e8e0c20ce40faa6aa904ffcdf959e3e752aebd64ec39da8",
+  "baseline_edition": "1.0",
+  "basis_manuscript_version": 36,
+  "baseline_prepared_date": "2026-11-18",
+  "repository_packaging_version": "1.0.0",
+  "repository_prepared_date": "2026-11-19",
+  "scientific_files_modified": false,
+  "monograph_record": "https://zenodo.org/records/24378474",
+  "monograph_doi": "10.5281/zenodo.24378474",
+  "software_doi": null,
+  "github_url": null,
+  "dnb_identifier": null
+}

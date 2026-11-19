@@ -1,0 +1,72 @@
+{
+  "version": 36,
+  "status": "PASS",
+  "groups": [
+    {
+      "label": "Sechs numerische Prüfgruppen einschließlich vier rationaler Zertifikate",
+      "args": [
+        "reproduce_v19.py"
+      ],
+      "returncode": 0,
+      "seconds": 2.523
+    },
+    {
+      "label": "Gegenrechnung des Minimalmodells",
+      "args": [
+        "schlussfassung19/gegenpruefung/audit.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.289
+    },
+    {
+      "label": "Gemeinsame Messkanäle",
+      "args": [
+        "schlussfassung21/zusatzmessungen/analyse.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.399
+    },
+    {
+      "label": "Getrennte Substratzugänge",
+      "args": [
+        "schlussfassung22/haertetest/analyse.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.12
+    },
+    {
+      "label": "Exakte synthetische Kalibrierbereiche",
+      "args": [
+        "schlussfassung28/kalibrierbeispiel.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.036
+    },
+    {
+      "label": "Nominaler E W und P2 Vergleich neu optimiert",
+      "args": [
+        "schlussfassung28/modellvergleich.py"
+      ],
+      "returncode": 0,
+      "seconds": 14.637
+    },
+    {
+      "label": "Algebra und andere numerische Suchstruktur",
+      "args": [
+        "schlussfassung29/wissenschaft_pruefen.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.739
+    },
+    {
+      "label": "Kontrolle der Nominalreihen und INFOGEST Tabelle",
+      "args": [
+        "schlussfassung33/numerische_kontrolle.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.509
+    }
+  ],
+  "scope": "Interner wissenschaftlicher Reproduktionslauf mit aktuellen unveränderten Eingaben. Nominale E W P2 Fälle neu optimiert. Historische 1572 Annahmeszenarien nicht vollständig neu optimiert. Keine unabhängige menschliche Prüfung oder neue Messungen.",
+  "unchanged_bound_files": 170
+}

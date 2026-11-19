@@ -1,0 +1,156 @@
+{
+  "status": "retrospective_within_study_exploratory_technical_pilot",
+  "unit": "mg_maltose_per_g_dry_flour",
+  "curves": {
+    "H_STD": {
+      "MSM": 4.78,
+      "models": {
+        "E": {
+          "parameters_order": [
+            "delta_mg_per_g_dry_flour",
+            "k_per_min"
+          ],
+          "parameters": [
+            99.9999999999995,
+            0.00030990926425958267
+          ],
+          "fixed_initial_product": 7.0,
+          "early_RMSE": 0.28937408373854456,
+          "late_RMSE": 0.7890054144738687,
+          "late_predictions": [
+            10.650608986289267,
+            12.425629120049967
+          ],
+          "converged": true,
+          "active_bounds": [
+            1,
+            0
+          ],
+          "number_starts": 9,
+          "bounds_lower": [
+            1e-06,
+            1e-06
+          ],
+          "bounds_upper": [
+            100.0,
+            10.0
+          ]
+        },
+        "W": {
+          "parameters_order": [
+            "delta_mg_per_g_dry_flour",
+            "k_per_min",
+            "shape"
+          ],
+          "parameters": [
+            2.0202926469666656,
+            0.03307366216349872,
+            3.9999999999999996
+          ],
+          "fixed_initial_product": 7.0,
+          "early_RMSE": 0.08517496647592113,
+          "late_RMSE": 2.2424971148518646,
+          "late_predictions": [
+            9.020292646966666,
+            9.020292646966666
+          ],
+          "converged": true,
+          "active_bounds": [
+            0,
+            0,
+            1
+          ],
+          "number_starts": 27,
+          "bounds_lower": [
+            1e-06,
+            1e-06,
+            0.1
+          ],
+          "bounds_upper": [
+            100.0,
+            10.0,
+            4.0
+          ]
+        }
+      },
+      "point_count": 7,
+      "curve_provenance": "one_technical_reading_plus_printed_initial_mean",
+      "not_independent_of_other_curve": true
+    },
+    "H_HIGH": {
+      "MSM": 8.37,
+      "models": {
+        "E": {
+          "parameters_order": [
+            "delta_mg_per_g_dry_flour",
+            "k_per_min"
+          ],
+          "parameters": [
+            18.358858440214625,
+            0.013636966713371277
+          ],
+          "fixed_initial_product": 25.0,
+          "early_RMSE": 1.2013637026530768,
+          "late_RMSE": 1.4329174907939153,
+          "late_predictions": [
+            39.78489137640776,
+            41.781962691587786
+          ],
+          "converged": true,
+          "active_bounds": [
+            0,
+            0
+          ],
+          "number_starts": 9,
+          "bounds_lower": [
+            1e-06,
+            1e-06
+          ],
+          "bounds_upper": [
+            100.0,
+            10.0
+          ]
+        },
+        "W": {
+          "parameters_order": [
+            "delta_mg_per_g_dry_flour",
+            "k_per_min",
+            "shape"
+          ],
+          "parameters": [
+            99.99999999999999,
+            0.0008319193674230158,
+            0.7482327275609857
+          ],
+          "fixed_initial_product": 25.0,
+          "early_RMSE": 1.0741187507590282,
+          "late_RMSE": 2.110696415846641,
+          "late_predictions": [
+            41.33306392883597,
+            46.457545747404936
+          ],
+          "converged": true,
+          "active_bounds": [
+            1,
+            0,
+            0
+          ],
+          "number_starts": 27,
+          "bounds_lower": [
+            1e-06,
+            1e-06,
+            0.1
+          ],
+          "bounds_upper": [
+            100.0,
+            10.0,
+            4.0
+          ]
+        }
+      },
+      "point_count": 7,
+      "curve_provenance": "one_technical_reading_plus_printed_initial_mean",
+      "not_independent_of_other_curve": true
+    }
+  }
+}

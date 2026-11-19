@@ -1,0 +1,57 @@
+{
+  "basis": "Manuskriptfassung 36, interne Quellenprüfungen bis 18. November 2026",
+  "remaining_full_text_gaps": [
+    27,
+    28,
+    30,
+    85
+  ],
+  "closed_text_access": [
+    29
+  ],
+  "targeted_decisions": [
+    {
+      "citation": 27,
+      "label": "Marc et al. 1983",
+      "access": "Originalabstract",
+      "decision": "Nur Forschungsstand, kein Gleichungs- oder Leistungsvergleich.",
+      "limit": "Die im Abstract beschriebene Modellkopplung ist eine Vorarbeit. Ihre Gleichungen wurden nicht geprüft."
+    },
+    {
+      "citation": 28,
+      "label": "Brandam et al. 2003",
+      "access": "Originalabstract und HAL-Nachweis",
+      "decision": "Bestehende Modellkopplung anerkannt, eigener Direktvergleich offen.",
+      "limit": "Die Angaben zu neun Anpassungs- und fünf Validierungsversuchen bleiben als Abstractbefund des bisherigen Vergleichs bezeichnet. Keine Prüfung der Originaldatenunabhängigkeit."
+    },
+    {
+      "citation": 29,
+      "label": "Struyf et al. 2016",
+      "access": "Vollständiger extrahierter Artikeltext",
+      "decision": "Zugriffslücke textuell geschlossen, Mess- und Wirkungsbeschreibung präzisiert.",
+      "limit": "Kein binäres PDF, keine Sichtprüfung der Originaltabellen oder Abbildungen. Textauszug enthält fehlerhafte Sonderzeichen und Einheiten. Keine Dosisvolumina oder mikromolbezogenen Einheiten übernommen. Kein neuer Modellfit."
+    },
+    {
+      "citation": 30,
+      "label": "Straathof und Heijnen 1996",
+      "access": "Originalabstract",
+      "decision": "Methodische Vorarbeit anerkannt. Keine Ausschlussaussage zur Priorität.",
+      "limit": "Keine Aussage, dass die eigene Skalierungs- oder Kalibrierbeziehung dort ausgeschlossen wäre. Zugriffsfehler belegt keine allgemeine Nichtverfügbarkeit."
+    },
+    {
+      "citation": 84,
+      "label": "Schindler et al. 1997",
+      "access": "Artikeltext bereits in Fassung 33 gelesen",
+      "decision": "Bestehender Vergleich erhalten, frühere Zugriffstiefe ausdrücklich bezeichnet.",
+      "limit": "In diesem Schritt nicht neu abgerufen. Binäres Original-PDF weiterhin nicht im Projekt. Keine eigene Kalibrierung dadurch bestätigt."
+    },
+    {
+      "citation": 85,
+      "label": "Burlina et al. 1988",
+      "access": "Originalabstract",
+      "decision": "Aussage auf Abstract begrenzt. Keine Aussage über den gesamten Artikelumfang.",
+      "limit": "Verwandte klinische Messfrage, kein aus dem Abstract ableitbarer Nachweis der eigenen nativen Prozessgleichungen. Kein Prioritätsausschluss."
+    }
+  ],
+  "scope": "Dokumentierter Zugriffsumfang. Keine erneute Volltextprüfung aller Literaturangaben und kein historischer Neuheitsnachweis."
+}

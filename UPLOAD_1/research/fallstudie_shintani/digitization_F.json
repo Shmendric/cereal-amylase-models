@@ -1,0 +1,111 @@
+{
+  "source": "https://doi.org/10.3136/fstr.27.567",
+  "license": "CC-BY-NC-SA-4.0",
+  "scope": "Numerische Projektkoordinaten und Mengenangaben. Keine Originalgrafik.",
+  "points": [
+    {
+      "point_id": "F01",
+      "sample": "F",
+      "time_nominal_h": 0.5,
+      "pixel_x": 281.035665357284,
+      "pixel_y": 411.3763744936698,
+      "time_h": 0.4778048334168915,
+      "maltose_g_per_g_input_flour": 0.17922088256318208,
+      "template_cost": 0.0,
+      "top_baseline_center_y": 409.68186181863473,
+      "baseline_delta_px": -1.694512675035071,
+      "independent_human_check": false
+    },
+    {
+      "point_id": "F02",
+      "sample": "F",
+      "time_nominal_h": 1.0,
+      "pixel_x": 343.4812775602684,
+      "pixel_y": 312.9864306177461,
+      "time_h": 0.9963843119191838,
+      "maltose_g_per_g_input_flour": 0.2200748384978217,
+      "template_cost": 0.0,
+      "top_baseline_center_y": 311.18186181863473,
+      "baseline_delta_px": -1.8045687991113937,
+      "independent_human_check": false
+    },
+    {
+      "point_id": "F03",
+      "sample": "F",
+      "time_nominal_h": 1.5,
+      "pixel_x": 401.4127066057784,
+      "pixel_y": 241.07748983287914,
+      "time_h": 1.477475764200236,
+      "maltose_g_per_g_input_flour": 0.24993322221472147,
+      "template_cost": 0.0,
+      "top_baseline_center_y": 239.18186181863473,
+      "baseline_delta_px": -1.8956280142444086,
+      "independent_human_check": false
+    },
+    {
+      "point_id": "F04",
+      "sample": "F",
+      "time_nominal_h": 2.0,
+      "pixel_x": 462.2312726068438,
+      "pixel_y": 234.8615926414485,
+      "time_h": 1.982543440333651,
+      "maltose_g_per_g_input_flour": 0.2525142175883259,
+      "template_cost": 0.0,
+      "top_baseline_center_y": 234.18186181863473,
+      "baseline_delta_px": -0.6797308228137808,
+      "independent_human_check": false
+    },
+    {
+      "point_id": "F05",
+      "sample": "F",
+      "time_nominal_h": 3.0,
+      "pixel_x": 583.1645146209465,
+      "pixel_y": 166.23792308850898,
+      "time_h": 2.9868333394127045,
+      "maltose_g_per_g_input_flour": 0.2810084748421416,
+      "template_cost": 0.0,
+      "top_baseline_center_y": 166.68186181863473,
+      "baseline_delta_px": 0.44393873012575114,
+      "independent_human_check": false
+    },
+    {
+      "point_id": "F06",
+      "sample": "F",
+      "time_nominal_h": 4.0,
+      "pixel_x": 703.309450897709,
+      "pixel_y": 95.01318126665818,
+      "time_h": 3.984576754859867,
+      "maltose_g_per_g_input_flour": 0.3105827621038097,
+      "template_cost": 0.0,
+      "top_baseline_center_y": 94.18186181863472,
+      "baseline_delta_px": -0.8313194480234642,
+      "independent_human_check": false
+    },
+    {
+      "point_id": "F07",
+      "sample": "F",
+      "time_nominal_h": 5.0,
+      "pixel_x": 823.6003263847132,
+      "pixel_y": 129.76130829817959,
+      "time_h": 4.983532122225991,
+      "maltose_g_per_g_input_flour": 0.29615447406303963,
+      "template_cost": 0.0,
+      "top_baseline_center_y": 127.68186181863472,
+      "baseline_delta_px": -2.0794464795448704,
+      "independent_human_check": false
+    },
+    {
+      "point_id": "F08",
+      "sample": "F",
+      "time_nominal_h": 6.0,
+      "pixel_x": 943.863656034584,
+      "pixel_y": 148.3911946073517,
+      "time_h": 5.982258735235299,
+      "maltose_g_per_g_input_flour": 0.28841888113189545,
+      "template_cost": 0.0,
+      "top_baseline_center_y": 147.68186181863473,
+      "baseline_delta_px": -0.7093327887169778,
+      "independent_human_check": false
+    }
+  ]
+}

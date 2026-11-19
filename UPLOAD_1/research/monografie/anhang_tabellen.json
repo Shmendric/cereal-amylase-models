@@ -1,0 +1,506 @@
+[
+  {
+    "table": {
+      "headers": [
+        "Kalibrieranker",
+        "Pixelkoordinate",
+        "Wert"
+      ],
+      "widths": [
+        1.3,
+        1,
+        1
+      ],
+      "rows": [
+        [
+          "Zeitursprung",
+          "x = 223,5",
+          "0 h"
+        ],
+        [
+          "Zeitanker rechts",
+          "x = 946,0",
+          "6 h"
+        ],
+        [
+          "Mengenursprung",
+          "y = 843,0",
+          "0 g/g"
+        ],
+        [
+          "Oberer Mengenanker",
+          "y = 120,5",
+          "0,3 g/g"
+        ]
+      ]
+    },
+    "caption": "Kalibrieranker der Abbildung von Shintani",
+    "table_number": "A1",
+    "review_ids": [
+      "G10"
+    ],
+    "original_table_number": 8
+  },
+  {
+    "table": {
+      "headers": [
+        "Eigenes Rechenszenario",
+        "Wert in Gramm je Gramm"
+      ],
+      "widths": [
+        10.5,
+        5.5
+      ],
+      "rows": [
+        [
+          "Individuelle Ablesestreuung",
+          "0,0020"
+        ],
+        [
+          "Gemeinsame Kalibrierstreuung",
+          "0,0015"
+        ],
+        [
+          "Korrekte Streuung des Mittelwerts bei acht Punkten",
+          "0,001658"
+        ],
+        [
+          "Fälschlich vollständig unabhängige Behandlung",
+          "0,000884"
+        ]
+      ]
+    },
+    "caption": "Synthetische Wirkung gemeinsamer Kalibrierfehler",
+    "table_number": "A2",
+    "review_ids": [
+      "G10"
+    ],
+    "original_table_number": 9
+  },
+  {
+    "table": {
+      "headers": [
+        "Prüfung",
+        "Konsequenz für die Auswertung"
+      ],
+      "widths": [
+        1,
+        2
+      ],
+      "rows": [
+        [
+          "Fehlt eine Messung bei t = 0?",
+          "P₀ bleibt eine extrapolierte Größe; seine Unsicherheit ist gesondert sichtbar zu machen."
+        ],
+        [
+          "Liegt P₀ an einer Grenze?",
+          "Grenze variieren und Profil berechnen; ein konvergierter Optimierer genügt nicht."
+        ],
+        [
+          "Ist n kleiner als eins?",
+          "Keine Anfangsrate aus t = 0 berichten; Gültigkeitsbeginn ausdrücklich nennen."
+        ],
+        [
+          "Verbessert sich nur der Trainingsfehler?",
+          "Zusätzlichen Parameter erst nach unabhängiger Vorhersageprüfung bevorzugen."
+        ]
+      ]
+    },
+    "caption": "Prüfungen der Weibullanpassung",
+    "table_number": "A3",
+    "review_ids": [
+      "G10"
+    ],
+    "original_table_number": 13
+  },
+  {
+    "table": {
+      "headers": [
+        "Zeit in h",
+        "Minimalmodell P",
+        "Pool-Modell P"
+      ],
+      "widths": [
+        0.8,
+        1.5,
+        1.5
+      ],
+      "rows": [
+        [
+          "0,5",
+          "0,07479",
+          "0,07209"
+        ],
+        [
+          "1",
+          "0,13110",
+          "0,12037"
+        ],
+        [
+          "2",
+          "0,23406",
+          "0,19251"
+        ],
+        [
+          "10",
+          "0,73244",
+          "0,29295"
+        ]
+      ]
+    },
+    "caption": "Synthetischer Vergleich bei gleicher Anfangssteigung",
+    "review_ids": [
+      "G02",
+      "G10"
+    ],
+    "table_number": "A4",
+    "original_table_number": 16
+  },
+  {
+    "table": {
+      "headers": [
+        "Abstand h / min",
+        "Letzter Zeitpunkt / min",
+        "Lineares u(d)/d / %",
+        "Unzulässige Dreierwerte / %"
+      ],
+      "rows": [
+        [
+          "5,00",
+          "15,00",
+          "91,81",
+          "13,604"
+        ],
+        [
+          "10,00",
+          "25,00",
+          "28,45",
+          "0,014"
+        ],
+        [
+          "20,00",
+          "45,00",
+          "11,21",
+          "< 0,001"
+        ],
+        [
+          "39,76",
+          "84,52",
+          "7,47",
+          "< 0,001"
+        ],
+        [
+          "60,00",
+          "125,00",
+          "9,15",
+          "< 0,001"
+        ],
+        [
+          "90,00",
+          "185,00",
+          "18,31",
+          "6,195"
+        ]
+      ],
+      "widths": [
+        1.0,
+        1.2,
+        1.3,
+        1.7
+      ],
+      "font": 9.5
+    },
+    "caption": "Zeitabstände und Präzision im synthetischen Szenario",
+    "table_number": "A5",
+    "review_ids": [
+      "G10"
+    ],
+    "original_table_number": 17
+  },
+  {
+    "table": {
+      "headers": [
+        "Bewusst gesetztes Szenario",
+        "Wert"
+      ],
+      "rows": [
+        [
+          "Intervall und wahre Inaktivierung",
+          "0 bis 20 min; d = 0,04 min⁻¹."
+        ],
+        [
+          "Rückgewinnung",
+          "r₀ = 0,20; γ = 0,05 min⁻¹; r(20) = 0,54366."
+        ],
+        [
+          "Tatsächlich verbleibende Aktivität",
+          "exp(−0,8) = 0,44933."
+        ],
+        [
+          "Normiertes beobachtetes Signal",
+          "exp(0,2) = 1,22140."
+        ]
+      ],
+      "widths": [
+        1.4,
+        2.2
+      ],
+      "font": 9.5
+    },
+    "caption": "Synthetisches Rückgewinnungsszenario",
+    "table_number": "A6",
+    "review_ids": [
+      "G10"
+    ],
+    "original_table_number": 20
+  },
+  {
+    "table": {
+      "headers": [
+        "ℓ / R",
+        "D / R",
+        "u(a)/a in %",
+        "u(v₀)/v₀ in %",
+        "Ungültig in %"
+      ],
+      "rows": [
+        [
+          "0,0005",
+          "0,0002",
+          "141,51",
+          "145,09",
+          "23,780"
+        ],
+        [
+          "0,0020",
+          "0,0008",
+          "35,71",
+          "39,37",
+          "0,247"
+        ],
+        [
+          "0,0100",
+          "0,0040",
+          "8,66",
+          "12,25",
+          "0,000"
+        ],
+        [
+          "0,0200",
+          "0,0080",
+          "6,12",
+          "9,35",
+          "0,000"
+        ],
+        [
+          "0,0400",
+          "0,0160",
+          "5,30",
+          "8,10",
+          "0,000"
+        ]
+      ],
+      "widths": [
+        0.8,
+        0.8,
+        1.2,
+        1.2,
+        1.2
+      ],
+      "font": 9.3
+    },
+    "caption": "Synthetische Präzisionsrechnung für fünf Referenzkontraste",
+    "table_number": "A7",
+    "original_table_number": 23
+  },
+  {
+    "table": {
+      "headers": [
+        "P₀ / g/g",
+        "P∞ / g/g",
+        "k / h⁻¹",
+        "n",
+        "RMSE / g/g"
+      ],
+      "widths": [
+        0.9,
+        1,
+        1,
+        1,
+        1.2
+      ],
+      "rows": [
+        [
+          "0,000",
+          "0,24058",
+          "1,659",
+          "0,777",
+          "0,00632"
+        ],
+        [
+          "0,015",
+          "0,24035",
+          "1,528",
+          "0,817",
+          "0,00625"
+        ],
+        [
+          "0,030",
+          "0,24010",
+          "1,404",
+          "0,866",
+          "0,00617"
+        ],
+        [
+          "0,050",
+          "0,23976",
+          "1,248",
+          "0,946",
+          "0,00606"
+        ]
+      ]
+    },
+    "caption": "Anfangswertszenarien der Probe A von Shintani",
+    "table_number": "A8",
+    "review_ids": [
+      "G10"
+    ],
+    "original_table_number": 30
+  },
+  {
+    "table": {
+      "headers": [
+        "Δ oben",
+        "P∞",
+        "k / h⁻¹",
+        "n",
+        "RMSE früh",
+        "RMSE spät"
+      ],
+      "widths": [
+        0.8,
+        0.8,
+        1,
+        0.8,
+        1,
+        1
+      ],
+      "font": 9.8,
+      "rows": [
+        [
+          "0,4",
+          "0,459",
+          "0,2290",
+          "0,457",
+          "0,00551",
+          "0,03595"
+        ],
+        [
+          "0,6",
+          "0,612",
+          "0,0771",
+          "0,335",
+          "0,00539",
+          "0,03721"
+        ],
+        [
+          "0,8",
+          "0,800",
+          "0,0217",
+          "0,298",
+          "0,00536",
+          "0,03838"
+        ],
+        [
+          "1,2",
+          "0,945",
+          "0,0097",
+          "0,287",
+          "0,00536",
+          "0,03903"
+        ]
+      ]
+    },
+    "caption": "Plateaugrenzen der Probe F von Shintani",
+    "table_number": "A9",
+    "review_ids": [
+      "G10"
+    ],
+    "original_table_number": 31
+  },
+  {
+    "table": {
+      "headers": [
+        "Probe",
+        "Varianten",
+        "Lokale x und y",
+        "Gemeinsame Anker"
+      ],
+      "widths": [
+        0.7,
+        0.8,
+        1.5,
+        1.5
+      ],
+      "rows": [
+        [
+          "A",
+          "400",
+          "±6 Pixel",
+          "±3 Pixel"
+        ],
+        [
+          "F",
+          "200",
+          "±8 Pixel",
+          "±3 Pixel"
+        ]
+      ]
+    },
+    "caption": "Getrennte technische Bildszenarien für Shintani A und F",
+    "review_ids": [
+      "G08",
+      "G10"
+    ],
+    "table_number": "A10",
+    "original_table_number": 32
+  },
+  {
+    "table": {
+      "headers": [
+        "Gesetzte Standardabweichung",
+        "Quadratischer Term",
+        "Negative Log-Likelihood"
+      ],
+      "rows": [
+        [
+          "0,005",
+          "16,0",
+          "−9,51752"
+        ],
+        [
+          "0,010",
+          "4,0",
+          "−12,74493"
+        ],
+        [
+          "0,020",
+          "1,0",
+          "−11,47234"
+        ]
+      ],
+      "widths": [
+        1.4,
+        1.1,
+        1.5
+      ],
+      "font": 9.5
+    },
+    "caption": "Negative logarithmische Likelihood im synthetischen Beispiel",
+    "table_number": "A11",
+    "review_ids": [
+      "G10"
+    ],
+    "original_table_number": 43
+  }
+]

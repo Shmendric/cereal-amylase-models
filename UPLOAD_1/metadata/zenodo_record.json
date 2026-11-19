@@ -1,0 +1,37 @@
+{
+  "verified_date": "2026-11-19",
+  "source_api": "https://zenodo.org/api/records/24378474",
+  "record_id": 24378474,
+  "record_url": "https://zenodo.org/records/24378474",
+  "doi": "10.5281/zenodo.24378474",
+  "concept_doi": "10.5281/zenodo.24378096",
+  "title_as_published": "Bedeutung und Einschränkungen kinetischer Modelle  der enzymatischen Stärkehydrolyse in Getreidesystemen",
+  "creators": [
+    {
+      "name": "Traublinger, Stefan",
+      "affiliation": null
+    }
+  ],
+  "publication_date": "2026-11-19",
+  "resource_type": {
+    "title": "Book",
+    "type": "publication",
+    "subtype": "book"
+  },
+  "record_license": {
+    "id": "cc-by-4.0"
+  },
+  "files": [
+    {
+      "name": "Monograph_Cereal_Amylases.pdf",
+      "bytes": 2701275,
+      "checksum": "md5:d78f2317934e8ac42de63368b645cdbf"
+    },
+    {
+      "name": "Monografie_Getreideamylasen.pdf",
+      "bytes": 2520372,
+      "checksum": "md5:c59b917498886d262294b8f37a959751"
+    }
+  ],
+  "software_doi": null
+}

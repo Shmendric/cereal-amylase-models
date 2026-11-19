@@ -1,0 +1,163 @@
+{
+  "source_DOI": "10.1038/s41598-025-12561-y",
+  "source_table": "Table 1 Panel A labs A to E",
+  "observational_units": "20 published pairs of laboratory means; five paired laboratories, four products, one ring trial",
+  "scope": "Assay temperature conversion only, not q linking assay to cereal process; no new laboratory observations",
+  "cross_validation": "leave one laboratory out; all four products in a held-out lab are excluded from every training fit",
+  "data_table_sha256": "4c06a3fd8ed788314ee9c747190300280355f3d774edb0ce3f22923e32ef5840",
+  "protocol_sha256": "300426ca93da359d90fc5c7e215b1bfc6eeba16e54215c122b510333d7e5f0f4",
+  "full_data_geometric_Q": 3.2799073806501653,
+  "full_data_product_geometric_Q": {
+    "amylase_M": 3.6829643378806476,
+    "amylase_S": 3.0894796995197704,
+    "pancreatin": 3.210869471189951,
+    "saliva": 3.1676764073258186
+  },
+  "observed_Q_range": [
+    2.586092715231788,
+    4.480259599783667
+  ],
+  "fit_factors": [
+    {
+      "held_out_lab": "A",
+      "training_labs": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "Q_common": 3.1385577329758263,
+      "Q_product": [
+        3.567625590931381,
+        2.98520353574331,
+        3.13665715398052,
+        2.904692863739366
+      ]
+    },
+    {
+      "held_out_lab": "B",
+      "training_labs": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "Q_common": 3.3610255141561667,
+      "Q_product": [
+        3.8223958561694698,
+        3.058116585512209,
+        3.275914419467826,
+        3.332460341958698
+      ]
+    },
+    {
+      "held_out_lab": "C",
+      "training_labs": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "Q_common": 3.315559101078465,
+      "Q_product": [
+        3.7759584407449314,
+        3.145987486761226,
+        3.125451953196796,
+        3.2548432001287897
+      ]
+    },
+    {
+      "held_out_lab": "D",
+      "training_labs": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "Q_common": 3.265071314752637,
+      "Q_product": [
+        3.5430397628710524,
+        3.048435113032764,
+        3.3195391964324106,
+        3.1698586965270845
+      ]
+    },
+    {
+      "held_out_lab": "E",
+      "training_labs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "Q_common": 3.3239656276091627,
+      "Q_product": [
+        3.714235220255141,
+        3.2148802280277673,
+        3.201275325642397,
+        3.1935143202342253
+      ]
+    }
+  ],
+  "prediction_errors": {
+    "identity": {
+      "log_RMSE": 1.197032067412434,
+      "mean_absolute_relative_error": 0.691828901396322,
+      "lab_log_RMSE": {
+        "A": 1.3679965927942686,
+        "B": 1.0935282609846289,
+        "C": 1.148751122956317,
+        "D": 1.2159961669747401,
+        "E": 1.1397079871655613
+      },
+      "lab_log_RMSE_minmax": [
+        1.0935282609846289,
+        1.3679965927942686
+      ]
+    },
+    "common": {
+      "log_RMSE": 0.16466966591113594,
+      "mean_absolute_relative_error": 0.1290999623615588,
+      "lab_log_RMSE": {
+        "A": 0.24366277244454704,
+        "B": 0.14975536553252328,
+        "C": 0.1118422725688216,
+        "D": 0.15762711498387844,
+        "E": 0.12816893876358423
+      },
+      "lab_log_RMSE_minmax": [
+        0.1118422725688216,
+        0.24366277244454704
+      ]
+    },
+    "product": {
+      "log_RMSE": 0.16446845534876464,
+      "mean_absolute_relative_error": 0.1329419842600065,
+      "lab_log_RMSE": {
+        "A": 0.25310401618441225,
+        "B": 0.1669377273802514,
+        "C": 0.12283699218799791,
+        "D": 0.13199013674816287,
+        "E": 0.10396727054168342
+      },
+      "lab_log_RMSE_minmax": [
+        0.10396727054168342,
+        0.25310401618441225
+      ]
+    }
+  },
+  "product_model_better_labs": [
+    "D",
+    "E"
+  ],
+  "checks": {
+    "XML_matches_second_transcription": true,
+    "each_lab_used_once_for_testing": true,
+    "all_models_predict_same_cases": true,
+    "product_unit_changes_preserve_errors": true,
+    "closed_common_estimates_match_numeric_minimization": true,
+    "stored_factors_reproduce_predictions": true,
+    "finite_positive_input_and_factors": true
+  },
+  "all_checks_pass": true
+}

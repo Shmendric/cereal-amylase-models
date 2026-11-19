@@ -1,0 +1,39 @@
+{
+  "edition": "1.0",
+  "basis_manuscript_version": 36,
+  "changes": [
+    {
+      "chapter": 10,
+      "block_index": 26,
+      "before": "Der frühere KU-Leuven-Link zu [29] enthält Vortragsfolien von 2015. Der Artikeltext von 2016 wurde inzwischen über eine getrennte Kopie geprüft (Kapitel 2, schlussfassung35). Für [35] sind Version und Dateiliste bekannt, die Hydrolysedateien wurden nicht beschafft. Die vier angepassten Mehlkurven bleiben die empirische Maltosebasis.",
+      "after": "Der frühere KU-Leuven-Link zu [29] enthält Vortragsfolien von 2015. Der Artikeltext von 2016 wurde inzwischen über eine getrennte Kopie geprüft (Kapitel 2 und Quellenübersicht im Begleitpaket). Für [35] sind Version und Dateiliste bekannt, die Hydrolysedateien wurden nicht beschafft. Die vier angepassten Mehlkurven bleiben die empirische Maltosebasis.",
+      "scope": "Redaktioneller Bezug auf die öffentliche Ausgabe. Keine Änderung mathematischer oder empirischer Ergebnisse."
+    },
+    {
+      "chapter": 11,
+      "block_index": 24,
+      "before": "Der Kernbeitrag liegt in der vollständigen bedingten Auflösung der angegebenen Messgleichungen. Sie erfasst freie positive Skalen, ausreichende Kalibrierbeziehungen und die Folgen einer fälschlich gleichgesetzten Zugänglichkeit. Bei getrennten Zugängen besitzt die effektive Referenzwirksamkeit ρη dieselbe Beobachtungsform wie der freie Faktor des gemeinsamen Modells. Dies ist eine Reparametrisierung. Standardaddition und die Frage der Vergleichbarkeit von Probe und Referenz sind bekannte Grundlagen [83–85]. Die Modellauflösung wird in Kapitel 5 hergeleitet. Für diese Anwendung wird historische Erstmaligkeit nicht als nachgewiesen beansprucht. Der frühere Methodenvergleich steht in schlussfassung33. Die ergänzende Nachweisliste und Zugriffsdokumentation stehen in schlussfassung35.",
+      "after": "Der Kernbeitrag liegt in der vollständigen bedingten Auflösung der angegebenen Messgleichungen. Sie erfasst freie positive Skalen, ausreichende Kalibrierbeziehungen und die Folgen einer fälschlich gleichgesetzten Zugänglichkeit. Bei getrennten Zugängen besitzt die effektive Referenzwirksamkeit ρη dieselbe Beobachtungsform wie der freie Faktor des gemeinsamen Modells. Dies ist eine Reparametrisierung. Standardaddition und die Frage der Vergleichbarkeit von Probe und Referenz sind bekannte Grundlagen [83–85]. Die Modellauflösung wird in Kapitel 5 hergeleitet. Für diese Anwendung wird historische Erstmaligkeit nicht als nachgewiesen beansprucht. Das Begleitpaket enthält die aussagenbezogene Nachweisliste und die dokumentierte Lesetiefe der Quellen.",
+      "scope": "Redaktioneller Bezug auf die öffentliche Ausgabe. Keine Änderung mathematischer oder empirischer Ergebnisse."
+    },
+    {
+      "chapter": 11,
+      "block_index": 28,
+      "before": "Laufzeitversionen, Rechenläufe und Quellenprüfungen sind im Rechenpaket versionsbezogen dokumentiert. schlussfassung30 enthält den numerischen Ausgangslauf, schlussfassung31 bis schlussfassung35 die späteren Quellen-, Integrations- und Erhaltungskontrollen. schlussfassung36 dokumentiert die inhaltliche Schlussabnahme mit erneuten wissenschaftlichen Rechnungen und dem Abgleich der Ergebnistabellen. Frühere Satz- und Veröffentlichungskontrollen gelten für ihren jeweils bezeichneten Stand.",
+      "after": "Das Begleitpaket dokumentiert die verwendeten Laufzeitversionen, Datenherkunft und Nutzungsbedingungen. Die Programme prüfen die nominalen Modellvergleiche, technischen Annahmeszenarien, rationalen Fehlerzertifikate, Kalibrierbeziehungen sowie Formel- und Tabellenwerte. Der interne Abnahmebericht der zugrunde liegenden Manuskriptfassung 36 ist versionsbezogen beigefügt. Die Ausgabe 1.0 erhält eine eigene Integritäts-, Reproduktions- und Satzprüfung.",
+      "scope": "Redaktioneller Bezug auf die öffentliche Ausgabe. Keine Änderung mathematischer oder empirischer Ergebnisse."
+    },
+    {
+      "chapter": 11,
+      "block_index": 31,
+      "before": "Autor der Monografie ist Stefan Traublinger. Programme, Daten, Quellenzuordnung und Prüfsummen gehören zum Rechenpaket. Ein öffentliches DOI-Archiv wurde noch nicht angelegt. Kontakt- und gegebenenfalls Beitragsangaben sind vor einer Veröffentlichung zu vervollständigen. Die vorliegende Fassung ist als Arbeitsstand gekennzeichnet.",
+      "after": "Autor und Herausgeber der Monografie ist Stefan Traublinger. Programme, ausgewählte Daten, Quellenzuordnung, Nutzungsbedingungen und Prüfsummen stehen im öffentlichen Begleitpaket. Das Impressum und die Zitierempfehlung bezeichnen diese digitale Ausgabe als Version 1.0. Ein dauerhafter Archividentifikator ist ihr noch nicht zugeordnet.",
+      "scope": "Redaktioneller Bezug auf die öffentliche Ausgabe. Keine Änderung mathematischer oder empirischer Ergebnisse."
+    }
+  ],
+  "front_matter": "Neue Titelseite und neues Impressum. Bisherigen Titelblock vor der Zusammenfassung durch diese beiden Seiten ersetzt.",
+  "comments_removed": 9,
+  "scientific_results_changed": false,
+  "native_equations_retained": 92,
+  "scientific_figures_retained": 10
+}

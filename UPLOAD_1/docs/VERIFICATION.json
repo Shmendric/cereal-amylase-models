@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "prepared_date": "2026-11-19",
+  "repository_packaging_version": "1.0.0",
+  "research_baseline_version": "1.0",
+  "baseline_files_preserved_byte_for_byte": 106,
+  "original_manifest_payload_files": 104,
+  "new_entrypoint_integrity_check_from_other_directory": "PASS",
+  "nominal_models_reoptimized": true,
+  "executed_run_groups": 15,
+  "steps": [
+    {
+      "label": "Integrität, Dateiauswahl und Quellenzuordnung",
+      "seconds": 0.639,
+      "returncode": 0
+    },
+    {
+      "label": "Nominale Vorhersage, INFOGEST und synthetische Grundmodelle",
+      "seconds": 0.673,
+      "returncode": 0
+    },
+    {
+      "label": "1572 gespeicherte Szenarien und Rekonstruktionsfälle",
+      "seconds": 0.666,
+      "returncode": 0
+    },
+    {
+      "label": "Vier rationale globale E Zertifikate",
+      "seconds": 0.123,
+      "returncode": 0
+    },
+    {
+      "label": "Negative Zertifikatskontrollen",
+      "seconds": 0.172,
+      "returncode": 0
+    },
+    {
+      "label": "Exakte Einzelpunktanalyse",
+      "seconds": 0.025,
+      "returncode": 0
+    },
+    {
+      "label": "LP und Einheiten Gegenrechnung",
+      "seconds": 0.376,
+      "returncode": 0
+    },
+    {
+      "label": "Hochpräzisionsgegenrechnung und 80 INFOGEST Zahlenfelder",
+      "seconds": 0.978,
+      "returncode": 0
+    },
+    {
+      "label": "Zusatzmessmodelle",
+      "seconds": 2.329,
+      "returncode": 0
+    },
+    {
+      "label": "Getrennte Substratzugänge",
+      "seconds": 1.061,
+      "returncode": 0
+    },
+    {
+      "label": "Exaktes synthetisches Kalibrierbeispiel",
+      "seconds": 0.038,
+      "returncode": 0
+    },
+    {
+      "label": "Nominaler begrenzter E W P2 Vergleich neu optimiert",
+      "seconds": 14.213,
+      "returncode": 0
+    },
+    {
+      "label": "Poollabel Rang, Fehlerkovarianz und andere LP Suchstruktur",
+      "seconds": 1.79,
+      "returncode": 0
+    },
+    {
+      "label": "Numerische Kontur- und Rundungskontrolle",
+      "seconds": 0.488,
+      "returncode": 0
+    },
+    {
+      "label": "168 Formel- und Tabellenbedingungen",
+      "seconds": 1.505,
+      "returncode": 0
+    }
+  ],
+  "module_condition_counts": {
+    "ergebnisse/nominal/rechenpruefung.json": 21,
+    "schlussfassung17/ergaenzungen_ergebnisse.json": 8,
+    "schlussfassung21/zusatzmessungen/ergebnisse/pruefergebnisse.json": 28,
+    "schlussfassung22/haertetest/ergebnisse/pruefergebnisse.json": 36,
+    "schlussfassung29/wissenschaft_pruefung.json": 53
+  },
+  "citation_schema": "CFF 1.2.0",
+  "citation_schema_validation": "PASS",
+  "citation_schema_source": "https://github.com/citation-file-format/citation-file-format/blob/1.2.0/schema.json",
+  "monograph_doi_verified_from_public_api": "10.5281/zenodo.24378474",
+  "python": "3.12.14",
+  "direct_packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0",
+    "matplotlib": "3.10.8",
+    "python-docx": "1.2.0",
+    "lxml": "6.1.1",
+    "Pillow": "13.0.0",
+    "PyMuPDF": "1.26.6",
+    "mpmath": "1.3.0",
+    "pypdf": "6.21.4",
+    "PyYAML": "6.0.3",
+    "jsonschema": "4.26.0"
+  },
+  "fresh_dependency_installation_tested": false,
+  "github_execution_tested": false,
+  "word_pdf_retypesetting_tested": false,
+  "new_measurements": 0,
+  "external_human_review": false,
+  "technical_conditions_are_independent_experiments": false,
+  "scope": "Internal reproduction of all selected public calculation modules, including nominal optimisation. Historical scenario parameters are re-evaluated, not all re-optimised. No new laboratory work or external peer review."
+}

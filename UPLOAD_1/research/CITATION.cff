@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: Bitte zitieren Sie die Monografie mit preferred-citation. Das Begleitpaket
+  gehört zur Ausgabe 1.0.
+type: software
+title: Begleitmaterial zur Monografie Aussagekraft und Grenzen kinetischer Modelle
+  der enzymatischen Stärkehydrolyse in Getreidesystemen
+authors:
+- family-names: Traublinger
+  given-names: Stefan
+version: '1.0'
+keywords:
+- Getreidechemie
+- Stärkehydrolyse
+- Amylasen
+- Maltose
+- Identifizierbarkeit
+- kinetische Modellierung
+- Messunsicherheit
+- Triticale
+preferred-citation:
+  type: book
+  title: Aussagekraft und Grenzen kinetischer Modelle der enzymatischen Stärkehydrolyse
+    in Getreidesystemen
+  authors:
+  - family-names: Traublinger
+    given-names: Stefan
+  version: '1.0'
+  languages:
+  - de
+  notes: Digitale Erstausgabe. Mathematisch-methodische Monografie mit bezeichneten
+    Modell- und Datengrenzen. Grundlage ist die intern geprüfte Manuskriptfassung
+    36.
+  publisher:
+    name: Stefan Traublinger
+  year: 2026

@@ -1,0 +1,77 @@
+{
+  "edition": "1.0",
+  "paragraphs": [
+    {
+      "style": "Title",
+      "text": "Aussagekraft und Grenzen kinetischer Modelle"
+    },
+    {
+      "style": "Subtitle",
+      "text": "der enzymatischen Stärkehydrolyse in Getreidesystemen"
+    },
+    {
+      "style": "Normal",
+      "text": "Stefan Traublinger"
+    },
+    {
+      "style": "Normal",
+      "text": "Mathematisch-methodische Monografie mit Anwendungen auf publizierte Getreidedaten"
+    },
+    {
+      "style": "Normal",
+      "text": "Digitale Erstausgabe\nAusgabe 1.0\n18. November 2026"
+    },
+    {
+      "style": "Normal",
+      "text": "München 2026"
+    },
+    {
+      "style": "Heading 1",
+      "text": "Impressum"
+    },
+    {
+      "style": "Normal",
+      "text": "Autor und Herausgeber\nStefan Traublinger\nFliederweg 1\n81545 München\nE-Mail: info@varietas-verlag.de"
+    },
+    {
+      "style": "Normal",
+      "text": "Digitale Erstausgabe 1.0 vom 18. November 2026\nWissenschaftlicher Ausgangsstand: Manuskriptfassung 36\n© 2026 Stefan Traublinger"
+    },
+    {
+      "style": "Heading 2",
+      "text": "Nutzung und Namensnennung"
+    },
+    {
+      "style": "Normal",
+      "text": "Die eigenen Beiträge stehen, soweit entsprechende Rechte bestehen, unter Creative Commons Namensnennung 4.0 International (CC BY 4.0). Bei Weitergabe sind Autor, Werktitel, verwendete Ausgabe, Lizenz und Änderungen anzugeben.\nhttps://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "style": "Normal",
+      "text": "Die gekennzeichneten Shintani-bezogenen Ablesungen und Bearbeitungsanteile behalten CC BY-NC-SA 4.0. Dazu gehören die betreffenden Reihen, Felder und Tabellenanteile in Kapitel 3 und 6, Tabellen A1, 20 bis 23, A8 bis A10, 25 und 32 bis 35 sowie Abbildungen 7, 8 und 10. Quelle und Änderungen sind dort und im Begleitpaket nachgewiesen.\nhttps://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    {
+      "style": "Normal",
+      "text": "Shintani-Quelle: Keisuke Shintani, Yayoi Miyagawa und Shuji Adachi (2021), DOI 10.3136/fstr.27.567. © 2021 Japanese Society for Food Science and Technology. Bearbeitung: Auswahl der Reihen A und F, Digitalisierung, Kalibrierung, Modellanpassung und neue Darstellung."
+    },
+    {
+      "style": "Normal",
+      "text": "Zitierte Fremdwerke behalten ihre Rechte. Bei Hackenberg werden ausschließlich technische Zahlenablesungen und eigene Auswertungen verwendet. Eine freie Lizenz des Originalartikels, seiner Abbildungen oder der Dissertation wird nicht erklärt. Das Begleitpaket enthält die Zuordnung in LICENSE.md und DATEIRECHTE.csv."
+    },
+    {
+      "style": "Heading 2",
+      "text": "Zitierempfehlung"
+    },
+    {
+      "style": "Normal",
+      "text": "Traublinger, Stefan (2026). Aussagekraft und Grenzen kinetischer Modelle der enzymatischen Stärkehydrolyse in Getreidesystemen. Digitale Monografie, Ausgabe 1.0. München: Stefan Traublinger."
+    },
+    {
+      "style": "Heading 2",
+      "text": "Zur Einordnung"
+    },
+    {
+      "style": "Normal",
+      "text": "Die Ausgabe verbindet bedingte Modellnachweise mit Sekundäranalysen publizierter Daten. KI-Unterstützung und die Grenzen der internen Abnahme werden in Kapitel 11 offengelegt. Eine abgeschlossene Promotion, externe Fachbegutachtung oder experimentell bestätigte Triticale-Anwendung wird nicht bescheinigt."
+    }
+  ]
+}

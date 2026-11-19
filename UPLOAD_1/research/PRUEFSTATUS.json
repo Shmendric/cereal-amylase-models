@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "all_passed": true,
+  "run_groups": 15,
+  "scientific_modules": 14,
+  "nominal_models_reoptimized": true,
+  "groups": [
+    {
+      "name": "Integrität, Dateiauswahl und Quellenzuordnung",
+      "returncode": 0,
+      "seconds": 0.636
+    },
+    {
+      "name": "Nominale Vorhersage, INFOGEST und synthetische Grundmodelle",
+      "returncode": 0,
+      "seconds": 0.765
+    },
+    {
+      "name": "1572 gespeicherte Szenarien und Rekonstruktionsfälle",
+      "returncode": 0,
+      "seconds": 0.778
+    },
+    {
+      "name": "Vier rationale globale E Zertifikate",
+      "returncode": 0,
+      "seconds": 0.145
+    },
+    {
+      "name": "Negative Zertifikatskontrollen",
+      "returncode": 0,
+      "seconds": 0.224
+    },
+    {
+      "name": "Exakte Einzelpunktanalyse",
+      "returncode": 0,
+      "seconds": 0.027
+    },
+    {
+      "name": "LP und Einheiten Gegenrechnung",
+      "returncode": 0,
+      "seconds": 0.498
+    },
+    {
+      "name": "Hochpräzisionsgegenrechnung und 80 INFOGEST Zahlenfelder",
+      "returncode": 0,
+      "seconds": 1.241
+    },
+    {
+      "name": "Zusatzmessmodelle",
+      "returncode": 0,
+      "seconds": 1.718
+    },
+    {
+      "name": "Getrennte Substratzugänge",
+      "returncode": 0,
+      "seconds": 1.568
+    },
+    {
+      "name": "Exaktes synthetisches Kalibrierbeispiel",
+      "returncode": 0,
+      "seconds": 0.032
+    },
+    {
+      "name": "Nominaler begrenzter E W P2 Vergleich neu optimiert",
+      "returncode": 0,
+      "seconds": 15.482
+    },
+    {
+      "name": "Poollabel Rang, Fehlerkovarianz und andere LP Suchstruktur",
+      "returncode": 0,
+      "seconds": 1.356
+    },
+    {
+      "name": "Numerische Kontur- und Rundungskontrolle",
+      "returncode": 0,
+      "seconds": 0.467
+    },
+    {
+      "name": "168 Formel- und Tabellenbedingungen",
+      "returncode": 0,
+      "seconds": 1.099
+    }
+  ],
+  "executed_module_check_counts": {
+    "ergebnisse/nominal/rechenpruefung.json": 21,
+    "schlussfassung17/ergaenzungen_ergebnisse.json": 8,
+    "schlussfassung21/zusatzmessungen/ergebnisse/pruefergebnisse.json": 28,
+    "schlussfassung22/haertetest/ergebnisse/pruefergebnisse.json": 36,
+    "schlussfassung29/wissenschaft_pruefung.json": 53
+  },
+  "fresh_formula_conditions": 168,
+  "checks_are_independent_experiments": false,
+  "external_human_review": false,
+  "new_measurements": 0,
+  "pdf_export_test": {
+    "passed": true,
+    "pages": 104,
+    "tool": "local LibreOffice through export_pdf.py"
+  },
+  "citation_metadata": {
+    "cff_schema_version": "1.2.0",
+    "validation": "PASS"
+  },
+  "limits": "Alle ausgewählten öffentlichen Rechenmodule; interne technische Prüfung. Keine vollständige Neuoptimierung der 1572 historischen Fälle, kein Word-/PDF-Neusatz, keine frische Abhängigkeitsinstallation, keine unabhängige Fachprüfung oder Laborvalidierung. Die 168 neuen Prüfbedingungen enthalten wiederholte Gitterfälle.",
+  "note": "Ausgeführt aus einem anderen Arbeitsverzeichnis in einer temporären Dateikopie. Nachfolgende Ergänzungen betreffen Titelei und Prüfberichte. Die finale Integritätsprüfung kontrolliert den versandten Paketstand gesondert."
+}

@@ -1,0 +1,523 @@
+{
+  "edition": "1.0",
+  "status": "PASS",
+  "pages": 104,
+  "basis_manuscript_version": 36,
+  "basis_render_hashes_match": true,
+  "method": "Union of exact footer rectangles masked for each F36 and edition page pair. 99 remaining page bodies match pixel-exactly. New pages 1 and 2 and changed pages 3, 74 and 84 visually inspected at rendered resolution.",
+  "unchanged_page_bodies": [
+    {
+      "basis_page": 2,
+      "edition_page": 4
+    },
+    {
+      "basis_page": 3,
+      "edition_page": 5
+    },
+    {
+      "basis_page": 4,
+      "edition_page": 6
+    },
+    {
+      "basis_page": 5,
+      "edition_page": 7
+    },
+    {
+      "basis_page": 6,
+      "edition_page": 8
+    },
+    {
+      "basis_page": 7,
+      "edition_page": 9
+    },
+    {
+      "basis_page": 8,
+      "edition_page": 10
+    },
+    {
+      "basis_page": 9,
+      "edition_page": 11
+    },
+    {
+      "basis_page": 10,
+      "edition_page": 12
+    },
+    {
+      "basis_page": 11,
+      "edition_page": 13
+    },
+    {
+      "basis_page": 12,
+      "edition_page": 14
+    },
+    {
+      "basis_page": 13,
+      "edition_page": 15
+    },
+    {
+      "basis_page": 14,
+      "edition_page": 16
+    },
+    {
+      "basis_page": 15,
+      "edition_page": 17
+    },
+    {
+      "basis_page": 16,
+      "edition_page": 18
+    },
+    {
+      "basis_page": 17,
+      "edition_page": 19
+    },
+    {
+      "basis_page": 18,
+      "edition_page": 20
+    },
+    {
+      "basis_page": 19,
+      "edition_page": 21
+    },
+    {
+      "basis_page": 20,
+      "edition_page": 22
+    },
+    {
+      "basis_page": 21,
+      "edition_page": 23
+    },
+    {
+      "basis_page": 22,
+      "edition_page": 24
+    },
+    {
+      "basis_page": 23,
+      "edition_page": 25
+    },
+    {
+      "basis_page": 24,
+      "edition_page": 26
+    },
+    {
+      "basis_page": 25,
+      "edition_page": 27
+    },
+    {
+      "basis_page": 26,
+      "edition_page": 28
+    },
+    {
+      "basis_page": 27,
+      "edition_page": 29
+    },
+    {
+      "basis_page": 28,
+      "edition_page": 30
+    },
+    {
+      "basis_page": 29,
+      "edition_page": 31
+    },
+    {
+      "basis_page": 30,
+      "edition_page": 32
+    },
+    {
+      "basis_page": 31,
+      "edition_page": 33
+    },
+    {
+      "basis_page": 32,
+      "edition_page": 34
+    },
+    {
+      "basis_page": 33,
+      "edition_page": 35
+    },
+    {
+      "basis_page": 34,
+      "edition_page": 36
+    },
+    {
+      "basis_page": 35,
+      "edition_page": 37
+    },
+    {
+      "basis_page": 36,
+      "edition_page": 38
+    },
+    {
+      "basis_page": 37,
+      "edition_page": 39
+    },
+    {
+      "basis_page": 38,
+      "edition_page": 40
+    },
+    {
+      "basis_page": 39,
+      "edition_page": 41
+    },
+    {
+      "basis_page": 40,
+      "edition_page": 42
+    },
+    {
+      "basis_page": 41,
+      "edition_page": 43
+    },
+    {
+      "basis_page": 42,
+      "edition_page": 44
+    },
+    {
+      "basis_page": 43,
+      "edition_page": 45
+    },
+    {
+      "basis_page": 44,
+      "edition_page": 46
+    },
+    {
+      "basis_page": 45,
+      "edition_page": 47
+    },
+    {
+      "basis_page": 46,
+      "edition_page": 48
+    },
+    {
+      "basis_page": 47,
+      "edition_page": 49
+    },
+    {
+      "basis_page": 48,
+      "edition_page": 50
+    },
+    {
+      "basis_page": 49,
+      "edition_page": 51
+    },
+    {
+      "basis_page": 50,
+      "edition_page": 52
+    },
+    {
+      "basis_page": 51,
+      "edition_page": 53
+    },
+    {
+      "basis_page": 52,
+      "edition_page": 54
+    },
+    {
+      "basis_page": 53,
+      "edition_page": 55
+    },
+    {
+      "basis_page": 54,
+      "edition_page": 56
+    },
+    {
+      "basis_page": 55,
+      "edition_page": 57
+    },
+    {
+      "basis_page": 56,
+      "edition_page": 58
+    },
+    {
+      "basis_page": 57,
+      "edition_page": 59
+    },
+    {
+      "basis_page": 58,
+      "edition_page": 60
+    },
+    {
+      "basis_page": 59,
+      "edition_page": 61
+    },
+    {
+      "basis_page": 60,
+      "edition_page": 62
+    },
+    {
+      "basis_page": 61,
+      "edition_page": 63
+    },
+    {
+      "basis_page": 62,
+      "edition_page": 64
+    },
+    {
+      "basis_page": 63,
+      "edition_page": 65
+    },
+    {
+      "basis_page": 64,
+      "edition_page": 66
+    },
+    {
+      "basis_page": 65,
+      "edition_page": 67
+    },
+    {
+      "basis_page": 66,
+      "edition_page": 68
+    },
+    {
+      "basis_page": 67,
+      "edition_page": 69
+    },
+    {
+      "basis_page": 68,
+      "edition_page": 70
+    },
+    {
+      "basis_page": 69,
+      "edition_page": 71
+    },
+    {
+      "basis_page": 70,
+      "edition_page": 72
+    },
+    {
+      "basis_page": 71,
+      "edition_page": 73
+    },
+    {
+      "basis_page": 73,
+      "edition_page": 75
+    },
+    {
+      "basis_page": 74,
+      "edition_page": 76
+    },
+    {
+      "basis_page": 75,
+      "edition_page": 77
+    },
+    {
+      "basis_page": 76,
+      "edition_page": 78
+    },
+    {
+      "basis_page": 77,
+      "edition_page": 79
+    },
+    {
+      "basis_page": 78,
+      "edition_page": 80
+    },
+    {
+      "basis_page": 79,
+      "edition_page": 81
+    },
+    {
+      "basis_page": 80,
+      "edition_page": 82
+    },
+    {
+      "basis_page": 81,
+      "edition_page": 83
+    },
+    {
+      "basis_page": 83,
+      "edition_page": 85
+    },
+    {
+      "basis_page": 84,
+      "edition_page": 86
+    },
+    {
+      "basis_page": 85,
+      "edition_page": 87
+    },
+    {
+      "basis_page": 86,
+      "edition_page": 88
+    },
+    {
+      "basis_page": 87,
+      "edition_page": 89
+    },
+    {
+      "basis_page": 88,
+      "edition_page": 90
+    },
+    {
+      "basis_page": 89,
+      "edition_page": 91
+    },
+    {
+      "basis_page": 90,
+      "edition_page": 92
+    },
+    {
+      "basis_page": 91,
+      "edition_page": 93
+    },
+    {
+      "basis_page": 92,
+      "edition_page": 94
+    },
+    {
+      "basis_page": 93,
+      "edition_page": 95
+    },
+    {
+      "basis_page": 94,
+      "edition_page": 96
+    },
+    {
+      "basis_page": 95,
+      "edition_page": 97
+    },
+    {
+      "basis_page": 96,
+      "edition_page": 98
+    },
+    {
+      "basis_page": 97,
+      "edition_page": 99
+    },
+    {
+      "basis_page": 98,
+      "edition_page": 100
+    },
+    {
+      "basis_page": 99,
+      "edition_page": 101
+    },
+    {
+      "basis_page": 100,
+      "edition_page": 102
+    },
+    {
+      "basis_page": 101,
+      "edition_page": 103
+    },
+    {
+      "basis_page": 102,
+      "edition_page": 104
+    }
+  ],
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    74,
+    84
+  ],
+  "all_104_footers_correct": true,
+  "no_text_outside_page": true,
+  "rendered_pages_sha256": {
+    "page-1.png": "f0a643fafd2365839621e486f75755a2fb0fb8f19b30383543265fd37de3bc5d",
+    "page-10.png": "078234e96123c77007281ee2f420418cda120da14818432d3dc368a361ab2bec",
+    "page-100.png": "940c7ceb921088ab3b0ea328db53ebc18c131c7977916b53cde12b52bf38cb89",
+    "page-101.png": "35ca9da6b64fb20c304a4f3640a368c2f8f780af0f283ee51be6a1b1c9ed5ef5",
+    "page-102.png": "00de59765e6652007dec0ec6963070b4c3040c0f38ef354dcd988fc07544b35c",
+    "page-103.png": "8aac51c012f5b9f094b003a5d72cc8d5fcde36e6812e07b535f2d34368e16218",
+    "page-104.png": "62cf66e21aa4a65576528c8cc5d8277bd56f28a04545e0b3fec2bc4907068628",
+    "page-11.png": "9238a5a511193d3b95c20597b96cbc12afe802aeaa37176dcadc43d822d43f6a",
+    "page-12.png": "2faf619ed874a15070bb3645de6dede50b5cb1cdbfc1488b8f173587aef06af3",
+    "page-13.png": "96dd9e6f6bdd0c566e47b65ae1daa02671ca63399858f792d2955e453f869798",
+    "page-14.png": "29dfe311308dacf5a06c2e2177f367a7289012a7d8db8c6dcf73f570ae3d789a",
+    "page-15.png": "0d6bdf021bc1c1a1d3c47045ad6352bed15d94f23e2f1d8f8ddb7cf24ced33fa",
+    "page-16.png": "ccab83e1485b2d04ad2fa0a57ab04f37d8e47eff2fc119b4ca0ccbc4c465696c",
+    "page-17.png": "e4993070d7619073f3271a1ae62823aeb7075cc091f8363d2c7b58735605976b",
+    "page-18.png": "bb209a75c60140960f497061f7b9b8b014e3528732297f5f43f0e295a8f1fb2a",
+    "page-19.png": "2696abad15d89337aba56c8c27cb5c612cd88785bab11c75c08f380a9aef5840",
+    "page-2.png": "8b46a1b291e890f2d96aaff530b77e9100db122d03407967f1554e277b0649ba",
+    "page-20.png": "7cfe2cb3fa678efe89762f9beac5412210a2f0e7e7350d0c786a4d88d7d5a7b1",
+    "page-21.png": "fa47b8603f118c458887ca1a8de9ac2d326753486cd6990ea23968edc5a8e96c",
+    "page-22.png": "9ecb4a8a0412adf9232f69ac45d2d005dd7847f30756bed0ee891980c981f1f9",
+    "page-23.png": "4132228b9b602504be1555472c2487f8e1fd32a7a1b3d2c3098522384f4f495a",
+    "page-24.png": "89f69691de57bc363c4f984b5b381808502ece028aca3d3e5d691fa2c5d199ab",
+    "page-25.png": "9c0b5fb1e7d534bdd8c98822634220cfdfa30871ed09b350f7cf04f5505816f2",
+    "page-26.png": "0cf482811bc44d7ecb20a455d3ea4a093cb71e87b10db09d16cb49efa8fb07d9",
+    "page-27.png": "04591f57972001f37c0a392054b8f10e13ee5cc86417513b3d7897eb31a63244",
+    "page-28.png": "2f3087a4d37f0927a114722c877b25ebf6b86cfed503b0429e3629627a253883",
+    "page-29.png": "319894e0d3d143aa05aac9f068c8277cf3fc23f0a1c2c529519a59047b9f9bf6",
+    "page-3.png": "f933a17236f770daa3d01c0a77a3df2fd4fa3eb08911139da0ebec6838074fed",
+    "page-30.png": "22b8a6fe5dea2dbf8215e2733c3fd3db0dd96d6b2751b9a387db11b29acb6001",
+    "page-31.png": "a4a4d19c61af88575d57408b378b1596adb5cc65ef7d17f5de673dbe30ee9071",
+    "page-32.png": "dca2c3c8361d2032e771f2b5018eb07a89a694ad87d1c6a4e8e638cccba7fc57",
+    "page-33.png": "a6b89f7d09499717850167c440883b910663197c814aafdebc04977a8c805b68",
+    "page-34.png": "d41f02189cbe94d265c1cbed0a2e8c339827be0873538e93188070e690a45f7b",
+    "page-35.png": "8fd9be93ba527e5eef9c5b120dda8f71e408aaead1be5756903534a1543b6bdc",
+    "page-36.png": "287ce15a77daae128eac406fd24287ca780b66595612a207e50a852c0cadc8d5",
+    "page-37.png": "2f53928152d16e7bb21fd00482bfdcfa83e3d664a4bde17384c7ae8988a03a85",
+    "page-38.png": "2d9efbaf6bdd4af689e5a9b8582f87e0b660f6a14d801798bfadb3b90b310864",
+    "page-39.png": "d386855583067993f0ecf0d99d57689422a9efdba6a6e65e6ba6c87d8a82baf6",
+    "page-4.png": "d06121d254f948607256ca4763f2c3a45d9e1b881fa31e3465e56bd8c6906ef0",
+    "page-40.png": "39f49ef8d5342a5dbf18d02548199d05aad47adcbd21c76225fb27e66545e4f5",
+    "page-41.png": "e6b46fbec0ac7f575e11f887f5c4c27e057b25e2b3b9916f71e25c266c9d1f54",
+    "page-42.png": "17e3d1e6831d5f9070b339faaecf44eb1c3e49ade01c8298315c85424e9fd923",
+    "page-43.png": "6de6bbd0b3f11b7d4f4f77292ad963bf8b29bdb997474276889904bd211e40ae",
+    "page-44.png": "ec7a1c56494f03f7bc55120f08211b7baf8f492451b05cd4fc9ff20c5420f5ed",
+    "page-45.png": "a07f901895e22633c5a756e6ce661455ba1407c504e00223b229c310e13b8dc9",
+    "page-46.png": "fdf8c1e0f9f0c55c155042d2fff2e7568f19f667bae971007c1139aa1784de45",
+    "page-47.png": "07246f5770d505fb667535875cf9f40a2ff96367d422be9ee677ffbb3aabd34f",
+    "page-48.png": "230345c7c1ec848636edeeb09bcd7732181578374f94fafc6d833a28c5b27dc2",
+    "page-49.png": "6f6baee08e33224052538046d17a69c7084b6a7aab542968e8da88cf4bf6eb48",
+    "page-5.png": "4bb906ccd9ec1b79bf78616ac52c10b7e1cadc7406ff27c324f1f4758433533e",
+    "page-50.png": "fb7c5bfbf60ba82b4dc51c5baeba13f03683ebb48e70aa5ef3ef677b0256a3a3",
+    "page-51.png": "824086065c5d93a72b467a1f46d60fce0ee5bf4303103407d6291d0801b28c81",
+    "page-52.png": "4caaf2261a3344451bf2fde02725b04431dabeb965904dadb6edd2d138a5796d",
+    "page-53.png": "fc687e52f7a9e45b581b55b2a91197c13c9b28248e80ea0a7d7f5334a74a38fd",
+    "page-54.png": "ddae08783514883efd0daecccce9304e253a460443feb0e337aea51a29406154",
+    "page-55.png": "2405def334ec1f778c01f71537e4e6610dc85927373178655694609fd18f5ac2",
+    "page-56.png": "763cefb445073edff30b9e458d20463d9d7b8b088e53e2282bfde9933286a251",
+    "page-57.png": "cc9482931308501f68404d918c9918e06e1a29786c332520e1e8550274c409fa",
+    "page-58.png": "6ec78745094e07eff34f8904be218a65a6cdc51cf2c79bf6c568c931d26d91b8",
+    "page-59.png": "407322a607826e5ce04b6013da56b5035170b04b1a8054520d880073f97c71bc",
+    "page-6.png": "a6a2ec19befe71faa2bda64db28214ae81465680d2791572e7172e62c8d737b5",
+    "page-60.png": "816dfe7cf91174a96f036092c4b37fbd360dc2c9f958e70cb3b0bbfd04244c55",
+    "page-61.png": "04c625ecc3c7b60543864adacad3992d4d8a72795402bacf84fa27337244140f",
+    "page-62.png": "65e443816ee6fd59aa8e5e2bb72367c6e5a41733eb02c18e6e45ae73abf4c67b",
+    "page-63.png": "0a795229d330fa7dd4f29e3699386f6932e24482be3b2e0298a5afad651f1ad3",
+    "page-64.png": "4abbde5d931c3db27ebdd81b669edff96bdb3a6ef8b560bbfc00998c4074a689",
+    "page-65.png": "f43e441a15bb2ba850cab650c80683ca596dcdba12365d80be04e23251bfce2f",
+    "page-66.png": "236d1dc82646476400eba5732d83384278ffb2869e852fd8969605daa54070fa",
+    "page-67.png": "a05ef90f952ba3d5de3ba31ceea7fe515fe577727171499dcb3dc76e013ca71d",
+    "page-68.png": "219e75e92c8d0ca5e845a496213a180b2cd0c7f3e7d6512c9caba55eb60d2e1a",
+    "page-69.png": "40ae063946a52e813b2f8bf8c8d7f60bf1992dcadebf20a480eeb7cec73b3344",
+    "page-7.png": "efc96fda8a9f7b1ba0002a7fd86d3bc6c2cfae3f9352d66c32faf767ac6e7771",
+    "page-70.png": "43437941fd07e40773d780abfa6329ee4a90bb86d29ceb8c6d547539ee54ecd6",
+    "page-71.png": "02150304bcb904bf8d4dba8ccdb710d5b089a0ec398296e17de61b1c62df9496",
+    "page-72.png": "e5e999cd8c9ac56900e7a250c2dd27df67f9fbbd48e63caa9f3ae558afc869a3",
+    "page-73.png": "c30395e0e7daf9937415b87f2d4db620614167d58541e8a914fff9cf83578ea3",
+    "page-74.png": "ed2502db670b99c4840cb49e688371e1ab9824ed92269d771d01f1aa175f2c87",
+    "page-75.png": "3caebdfa1b6306b756d355e364029ac1aa3c85cf84b1a497145082aa3f838d9e",
+    "page-76.png": "0e853d869313765b56b5043a02b39ee054c45ed10a81c8b9f85ba852ebc0f4c1",
+    "page-77.png": "051b3f61bae9e800749367b8abb872661d4afd0833dac5c291761cc778e9240e",
+    "page-78.png": "1b4290d619c0520a25afd19848e93f42154bdc406c007bb869db9074cdbdae09",
+    "page-79.png": "35b4962738168e4931268b0c210316e4b06034fb233f39bbfe4bb847435bc623",
+    "page-8.png": "11ef5cbf541ed6de001f70990d2174cd63e309444cedb55b63811dc01370ee25",
+    "page-80.png": "9dc87ef4de903594aca91f55c35997e6136f6d1d1a49fdf7f1af4c1ab1158fa1",
+    "page-81.png": "6c026f9373dca0347668c3def157660a31568f186ed85b60e7e0d6ca0a9260af",
+    "page-82.png": "6a07318c8180cdd9d98b6d4f903457755396008ada54955d493414e2b078f092",
+    "page-83.png": "69b4e426896789c444c0796728e04ee5cbcd6c82fc27ec1eee60c3742b862407",
+    "page-84.png": "b497c01e808cc6ed6709b10bc0cfb6e2a4bac1d069f3b54464d921cb6683a5ff",
+    "page-85.png": "e23cc663180de31e60a57c9c9bb58286aceb258b7ac30784a25a81c5adcf3163",
+    "page-86.png": "327377c6b7065ea9fa1cfbfea1675a7ad79cad0f7798139833594b7066c9ddb4",
+    "page-87.png": "acad410c655f8983f8cd1b5a159070bb5a68ef7a9e860f54c7dd98d954173a55",
+    "page-88.png": "1de16d12bd2f9cc18d1f8b258946ff8f431be8f62f657750840e3d8b7f7045e1",
+    "page-89.png": "6aa06418e0e7998b74e82ab22282cf52155e9622fed4c82ea023fba0c69ce8d4",
+    "page-9.png": "a1960a8987803b8dadcb658dad90b77f45858005f3db869f0061af74fbe5d87a",
+    "page-90.png": "577ad4bc34903ecd2626689ef5afa81c067fd8e1652fe394366140ef33a448af",
+    "page-91.png": "8879cbc29bb4a0a365e8a9f667ae13f9e1a43a24f78d685ec15030730e59c1be",
+    "page-92.png": "77174c324beddc21fa44281a6245cce03361b4fa446dfbc5349207dcf029305a",
+    "page-93.png": "8b48da649d959f0e74e9acf5dfc067ea106fd36feb3482278c71cfac01f81262",
+    "page-94.png": "0dd252e9c4ffaccac2dee8f80816cfdc877ea9f8f68636d8abdbf24b1548bda8",
+    "page-95.png": "64948fe4f16380200aad27bf2efc78cdc54500d657a18db296bba3c9afdbaa01",
+    "page-96.png": "6ce3c7c1069e8f30ca7faef5daac68ff9f38733a9ae17ccfda358c8e1aa8ae86",
+    "page-97.png": "10d69b61afcfc2c0c7c9358ddac73ffd8d7d8086546608052af4af2546dec297",
+    "page-98.png": "3b9a7d49c96834be6ab963bebfe2abfefccd82d913839341e2aae012d1456569",
+    "page-99.png": "3eadf9a811ac96e9e0b7234dd246b6ce35ae156cc4cf745f2f0bb4ad951bb794"
+  },
+  "docx_sha256": "b7773cc893b2bca1a0462d729e1b9e6825afc92f9c99c70fade8654b3e5e05fe",
+  "pdf_sha256": "f7b46c105bd60ac79879c39b2c73e5e7b0e78ed84a5304faae5c4b54f4b5325d"
+}
