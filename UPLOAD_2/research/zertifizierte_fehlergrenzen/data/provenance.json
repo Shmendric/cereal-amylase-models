@@ -1,0 +1,112 @@
+{
+  "source_version": 17,
+  "source_package_sha256": "78000ef1c6549c7ebada0584378cc03c36a3958a43e77cc10eaf4152aecbc213",
+  "nominal_data_sha256": "9331376a3564ab28947cfc1116346e93c574f0616f82bed0bcfa234fff25deaf",
+  "source_files": [
+    {
+      "package_v17_path": "fallstudie_shintani/digitized_A.csv",
+      "local_path": "data/original/Shintani_A.csv",
+      "sha256": "9fcb2915e51d76e930e4d65effadcabe72937737db6ad68cbc82909abac46a0e"
+    },
+    {
+      "package_v17_path": "fallstudie_shintani/digitized_F.csv",
+      "local_path": "data/original/Shintani_F.csv",
+      "sha256": "e57eac3c6b154d93435c635368ca3093f2c771cfae94f68ebc744a827141c9f4"
+    },
+    {
+      "package_v17_path": "datenpruefung_2026_11_05/hackenberg_pilot/digitized_maltose.csv",
+      "local_path": "data/original/Hackenberg.csv",
+      "sha256": "22cb4f0a34deaa17a001d4f2d0ea18637ae960009885b7753376c145fd604507"
+    },
+    {
+      "package_v17_path": "datenpruefung_2026_11_05/hackenberg_pilot/protocol.json",
+      "local_path": "data/original/Hackenberg_protocol.json",
+      "sha256": "de1fed0f646a408b5e1b619fb99c7534dddf95eb308605245b59e96dfe05fa34"
+    }
+  ],
+  "limitations": [
+    "Technically digitized nominal values, not original laboratory raw data.",
+    "Only two source groups and four selected curves.",
+    "No independent human validation of the graph readings.",
+    "Pointwise experimental uncertainty is not established.",
+    "No transfer claim to rye, triticale or other cereal species."
+  ],
+  "references": {
+    "GRP005": {
+      "authors": "Shintani K, Miyagawa Y, Adachi S",
+      "year": 2021,
+      "title": "Maltose formation from wheat flour with different degrees of damaged starch",
+      "doi": "10.3136/fstr.27.567",
+      "figure": "2",
+      "access_this_pass": "Full HTML read",
+      "licence": "Article CC BY-NC-SA 4.0; original figures not redistributed."
+    },
+    "GRP010": {
+      "authors": "Hackenberg S, Leitner T, Jekle M, Becker T",
+      "year": 2018,
+      "title": "Maltose formation in wheat dough depending on mechanical starch modification and dough hydration",
+      "doi": "10.1016/j.carbpol.2017.12.064",
+      "figure": "1B, article p 155, thesis PDF p 51",
+      "access_this_pass": "Abstract and institutional record read; thesis PDF reaccess failed with HTTP 429; extraction inherited from project version 17.",
+      "licence": "Published article rights remain with its rights holders; no original PDF or figure redistributed."
+    }
+  },
+  "inherited_hackenberg_protocol": {
+    "source_url": "https://mediatum.ub.tum.de/doc/1575003/1575003.pdf",
+    "article_doi": "10.1016/j.carbpol.2017.12.064",
+    "source_pdf_page": 51,
+    "printed_article_page": 155,
+    "figure": "1B",
+    "original_pdf_sha256": "ee8988341de325908101e32abd1e34431a91c28eeb023a173af99afef8253bad",
+    "crop_definition_pdf_points": [
+      238,
+      114,
+      370,
+      238
+    ],
+    "render_scale": 6,
+    "crop_image_sha256": "d409326e75c7a35e10e8cd05fe295c7310bad7d0b13077c9f0b1a49c7e0f720c",
+    "crop_image_size": [
+      792,
+      744
+    ],
+    "anchors": {
+      "x_time_zero": 49.0,
+      "x_time_180": 754.0,
+      "y_maltose_zero": 590.0,
+      "y_maltose_50": 166.0
+    },
+    "centroid_rule": "manual symbol class and y-window choice; mean of pixels darker than 125 in 15x15 window, including possible line contribution",
+    "time_values": "nominal times reported in methods, not fitted from x coordinates",
+    "initial_values": "printed means; not exact latent initial concentrations",
+    "SEM": "figure caption reports SEM n=3; no pointwise SEM inferred from visible pixel widths",
+    "replication": "reported measurement triplicates; independent biological lots not established",
+    "temperature_C": 30,
+    "water_addition": "3 mL per 0.2 g flour before reaction stop",
+    "water_to_flour_before_quench_mL_per_g": 15,
+    "analytical_basis": "mg maltose per g dry flour",
+    "assay": "HPAEC-ED",
+    "measurement_status": "technical_pilot_not_released_for_external_transfer",
+    "independent_human_reading": false,
+    "early_fit_times_min": [
+      5,
+      10,
+      20,
+      60
+    ],
+    "late_exploratory_times_min": [
+      120,
+      180
+    ],
+    "initial_product_used_as_input": true,
+    "preplanned_blinded_test": false,
+    "parameter_bounds": "working numerical limits not material constants",
+    "plot": "own plotted reconstruction and model fits; no original figure redistributed"
+  },
+  "source_figure_sanity_check": {
+    "date": "2026-11-05",
+    "url": "https://www.jstage.jst.go.jp/article/fstr/27/4/27_567/_html/-char/Graphics/27_567_002.png",
+    "downloaded_image_sha256": "38ff40606d41c8fe3d1a085c8f5fea1d4f2177e317731c6b250a6855db2aabcd",
+    "status": "AI visual comparison: A upward-triangle and F downward-triangle series consistent with nominal trajectories at the displayed resolution; no new independent digitization or human validation."
+  }
+}

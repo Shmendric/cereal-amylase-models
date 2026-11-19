@@ -1,0 +1,1718 @@
+{
+  "status": "PASS",
+  "version": 28,
+  "seed": 20261112,
+  "seconds": 14.22,
+  "source_data_sha256": "9331376a3564ab28947cfc1116346e93c574f0616f82bed0bcfa234fff25deaf",
+  "scope": "Nominal bounded comparison of E, W and parallel nonnegative pools. Numerical minimax candidates are upper bounds, not globally certified optima. No new material group, independent validation or parameter identification is claimed.",
+  "new_measurements": 0,
+  "results": [
+    {
+      "curve": "Shintani_A",
+      "model": "E",
+      "time_unit": "h",
+      "value_unit": "g maltose / g input flour",
+      "training_points": 6,
+      "later_points": 2,
+      "early_RMSE": 0.0023462695766901928,
+      "later_RMSE": 0.019451596259620733,
+      "full_numerical_minimax": 0.010532631499970635,
+      "amplitude_cap": 0.8,
+      "initial_value_policy": "free_nonnegative",
+      "training_parameters": 3,
+      "full_parameters": 3,
+      "training_residual_degrees_of_freedom": 3
+    },
+    {
+      "curve": "Shintani_A",
+      "model": "W",
+      "time_unit": "h",
+      "value_unit": "g maltose / g input flour",
+      "training_points": 6,
+      "later_points": 2,
+      "early_RMSE": 0.0011087178960328295,
+      "later_RMSE": 0.02508493763380248,
+      "full_numerical_minimax": 0.010312085295205609,
+      "amplitude_cap": 0.8,
+      "initial_value_policy": "free_nonnegative",
+      "training_parameters": 4,
+      "full_parameters": 4,
+      "training_residual_degrees_of_freedom": 2
+    },
+    {
+      "curve": "Shintani_A",
+      "model": "P2",
+      "time_unit": "h",
+      "value_unit": "g maltose / g input flour",
+      "training_points": 6,
+      "later_points": 2,
+      "early_RMSE": 7.883013015273862e-05,
+      "later_RMSE": 0.028114367131211213,
+      "full_numerical_minimax": 0.010532631499970635,
+      "amplitude_cap": 0.8,
+      "initial_value_policy": "free_nonnegative",
+      "training_parameters": 5,
+      "full_parameters": 5,
+      "training_residual_degrees_of_freedom": 1
+    },
+    {
+      "curve": "Shintani_F",
+      "model": "E",
+      "time_unit": "h",
+      "value_unit": "g maltose / g input flour",
+      "training_points": 6,
+      "later_points": 2,
+      "early_RMSE": 0.006617762932751955,
+      "later_RMSE": 0.027383047159187057,
+      "full_numerical_minimax": 0.013741538325921843,
+      "amplitude_cap": 0.8,
+      "initial_value_policy": "free_nonnegative",
+      "training_parameters": 3,
+      "full_parameters": 3,
+      "training_residual_degrees_of_freedom": 3
+    },
+    {
+      "curve": "Shintani_F",
+      "model": "W",
+      "time_unit": "h",
+      "value_unit": "g maltose / g input flour",
+      "training_points": 6,
+      "later_points": 2,
+      "early_RMSE": 0.005364583798036465,
+      "later_RMSE": 0.038376957732779014,
+      "full_numerical_minimax": 0.011532653476101995,
+      "amplitude_cap": 0.8,
+      "initial_value_policy": "free_nonnegative",
+      "training_parameters": 4,
+      "full_parameters": 4,
+      "training_residual_degrees_of_freedom": 2
+    },
+    {
+      "curve": "Shintani_F",
+      "model": "P2",
+      "time_unit": "h",
+      "value_unit": "g maltose / g input flour",
+      "training_points": 6,
+      "later_points": 2,
+      "early_RMSE": 0.004122253119245228,
+      "later_RMSE": 0.05317467991252255,
+      "full_numerical_minimax": 0.01374153832592162,
+      "amplitude_cap": 0.8,
+      "initial_value_policy": "free_nonnegative",
+      "training_parameters": 5,
+      "full_parameters": 5,
+      "training_residual_degrees_of_freedom": 1
+    },
+    {
+      "curve": "H_STD",
+      "model": "E",
+      "time_unit": "min",
+      "value_unit": "mg maltose / g dry flour",
+      "training_points": 4,
+      "later_points": 2,
+      "early_RMSE": 0.2893740837385433,
+      "later_RMSE": 0.7890054806027215,
+      "full_numerical_minimax": 0.3189125327646103,
+      "amplitude_cap": 100.0,
+      "initial_value_policy": "reported_initial_fixed_for_continuation",
+      "training_parameters": 2,
+      "full_parameters": 3,
+      "training_residual_degrees_of_freedom": 2
+    },
+    {
+      "curve": "H_STD",
+      "model": "W",
+      "time_unit": "min",
+      "value_unit": "mg maltose / g dry flour",
+      "training_points": 4,
+      "later_points": 2,
+      "early_RMSE": 0.08517496647592107,
+      "later_RMSE": 2.24249712069082,
+      "full_numerical_minimax": 0.12581327260898423,
+      "amplitude_cap": 100.0,
+      "initial_value_policy": "reported_initial_fixed_for_continuation",
+      "training_parameters": 3,
+      "full_parameters": 4,
+      "training_residual_degrees_of_freedom": 1
+    },
+    {
+      "curve": "H_STD",
+      "model": "P2",
+      "time_unit": "min",
+      "value_unit": "mg maltose / g dry flour",
+      "training_points": 4,
+      "later_points": 2,
+      "early_RMSE": 0.2893740837385433,
+      "later_RMSE": 0.7890054806027215,
+      "full_numerical_minimax": 0.3189125327646103,
+      "amplitude_cap": 100.0,
+      "initial_value_policy": "reported_initial_fixed_for_continuation",
+      "training_parameters": 4,
+      "full_parameters": 5,
+      "training_residual_degrees_of_freedom": 0
+    },
+    {
+      "curve": "H_HIGH",
+      "model": "E",
+      "time_unit": "min",
+      "value_unit": "mg maltose / g dry flour",
+      "training_points": 4,
+      "later_points": 2,
+      "early_RMSE": 1.201363702653072,
+      "later_RMSE": 1.4329178946829906,
+      "full_numerical_minimax": 1.5347017323213734,
+      "amplitude_cap": 100.0,
+      "initial_value_policy": "reported_initial_fixed_for_continuation",
+      "training_parameters": 2,
+      "full_parameters": 3,
+      "training_residual_degrees_of_freedom": 2
+    },
+    {
+      "curve": "H_HIGH",
+      "model": "W",
+      "time_unit": "min",
+      "value_unit": "mg maltose / g dry flour",
+      "training_points": 4,
+      "later_points": 2,
+      "early_RMSE": 1.0741187507590184,
+      "later_RMSE": 2.110697149790881,
+      "full_numerical_minimax": 1.32221032515384,
+      "amplitude_cap": 100.0,
+      "initial_value_policy": "reported_initial_fixed_for_continuation",
+      "training_parameters": 3,
+      "full_parameters": 4,
+      "training_residual_degrees_of_freedom": 1
+    },
+    {
+      "curve": "H_HIGH",
+      "model": "P2",
+      "time_unit": "min",
+      "value_unit": "mg maltose / g dry flour",
+      "training_points": 4,
+      "later_points": 2,
+      "early_RMSE": 0.9119083803753333,
+      "later_RMSE": 5.019506806259406,
+      "full_numerical_minimax": 1.2170199619256934,
+      "amplitude_cap": 100.0,
+      "initial_value_policy": "reported_initial_fixed_for_continuation",
+      "training_parameters": 4,
+      "full_parameters": 5,
+      "training_residual_degrees_of_freedom": 0
+    }
+  ],
+  "details": [
+    {
+      "curve": "Shintani_A",
+      "model": "E",
+      "early": {
+        "parameters": [
+          0.08370588984077104,
+          0.17018917279905915,
+          -0.16868745959881237
+        ],
+        "bounds": [
+          [
+            0.0,
+            0.13957002373923574
+          ],
+          [
+            1e-05,
+            0.8
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ]
+        ],
+        "objective": "least_squares",
+        "objective_normalized": 0.0026895839039634754,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.0026895839043191306,
+            "success": true,
+            "iterations": 80
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.0026895839040081263,
+            "success": true,
+            "iterations": 77
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": []
+      },
+      "all_points": {
+        "parameters": [
+          0.007146876580502587,
+          0.23326997451713333,
+          0.4151282768958026
+        ],
+        "bounds": [
+          [
+            0.0,
+            0.13957002373923574
+          ],
+          [
+            1e-05,
+            0.8
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ]
+        ],
+        "objective": "minimax",
+        "objective_normalized": 0.09504426226577889,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.09504426228515477,
+            "success": true,
+            "iterations": 189
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.095044262398415,
+            "success": true,
+            "iterations": 184
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": []
+      },
+      "training_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "test_indices": [
+        6,
+        7
+      ],
+      "early_predictions": [
+        0.1412118906130227,
+        0.18015747360985246,
+        0.20520260454446443,
+        0.222180975343766,
+        0.24011727667667598,
+        0.24800222940329872,
+        0.25140407239573925,
+        0.25281656836070193
+      ],
+      "all_points_predictions": [
+        0.1290373922392654,
+        0.18834384539434343,
+        0.21567174757013077,
+        0.22894481426223634,
+        0.23784353955505633,
+        0.23985556525551205,
+        0.24029697354976715,
+        0.2403901251115297
+      ]
+    },
+    {
+      "curve": "Shintani_A",
+      "model": "W",
+      "early": {
+        "parameters": [
+          2.4837761627195075e-27,
+          0.2698406455898177,
+          0.2032732730408215,
+          0.5985952164137281
+        ],
+        "bounds": [
+          [
+            0.0,
+            0.13957002373923574
+          ],
+          [
+            1e-05,
+            0.8
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ],
+          [
+            0.1,
+            3.0
+          ]
+        ],
+        "objective": "least_squares",
+        "objective_normalized": 0.0006005807302837992,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.0006005807306591216,
+            "success": true,
+            "iterations": 180
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.0006005807304865102,
+            "success": true,
+            "iterations": 177
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          0
+        ]
+      },
+      "all_points": {
+        "parameters": [
+          0.13957002373923452,
+          0.1005064036289503,
+          -0.3486643069059783,
+          2.4583589459470585
+        ],
+        "bounds": [
+          [
+            0.0,
+            0.13957002373923574
+          ],
+          [
+            1e-05,
+            0.8
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ],
+          [
+            0.1,
+            3.0
+          ]
+        ],
+        "objective": "minimax",
+        "objective_normalized": 0.09305409947241924,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.09305409951864223,
+            "success": true,
+            "iterations": 310
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.09305409951344316,
+            "success": true,
+            "iterations": 279
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          0
+        ]
+      },
+      "training_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "test_indices": [
+        6,
+        7
+      ],
+      "early_predictions": [
+        0.14047200089318262,
+        0.18203231263560948,
+        0.20519293510811554,
+        0.22076510585024753,
+        0.23901227972807032,
+        0.24944074736550453,
+        0.25585542874876044,
+        0.2598694244600748
+      ],
+      "all_points_predictions": [
+        0.1466245738230107,
+        0.17364857928143962,
+        0.20711847607795453,
+        0.23000541369150046,
+        0.23987139098195887,
+        0.24007611146027708,
+        0.24007642734500295,
+        0.24007642736818474
+      ]
+    },
+    {
+      "curve": "Shintani_A",
+      "model": "P2",
+      "early": {
+        "parameters": [
+          0.018556524951820304,
+          0.254587649516467,
+          0.48551510770997097,
+          -0.8561019078990185,
+          1.0358088529769296
+        ],
+        "bounds": [
+          [
+            0.0,
+            0.13957002373923574
+          ],
+          [
+            1e-05,
+            0.8
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ]
+        ],
+        "objective": "least_squares",
+        "objective_normalized": 3.036083878052107e-06,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 3.0360998504590784e-06,
+            "success": false,
+            "iterations": 500
+          },
+          {
+            "seed": 20261113,
+            "objective": 3.036083959846e-06,
+            "success": true,
+            "iterations": 246
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": []
+      },
+      "all_points": {
+        "parameters": [
+          0.007146876580502587,
+          0.23326997451713333,
+          0.5,
+          0.4151282768958026,
+          0.4151282768958026
+        ],
+        "bounds": [
+          [
+            0.0,
+            0.13957002373923574
+          ],
+          [
+            1e-05,
+            0.8
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ]
+        ],
+        "objective": "minimax",
+        "objective_normalized": 0.09504426226577889,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.09678423015268521,
+            "success": false,
+            "iterations": 500
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.09504426230321221,
+            "success": false,
+            "iterations": 500
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": []
+      },
+      "training_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "test_indices": [
+        6,
+        7
+      ],
+      "early_predictions": [
+        0.13957298111996277,
+        0.183928680467236,
+        0.20524888103561853,
+        0.21956048322431662,
+        0.23819816261585958,
+        0.2503632617246973,
+        0.258370468919334,
+        0.2634465666091783
+      ],
+      "all_points_predictions": [
+        0.1290373922392654,
+        0.18834384539434343,
+        0.21567174757013077,
+        0.22894481426223634,
+        0.23784353955505633,
+        0.23985556525551205,
+        0.24029697354976715,
+        0.2403901251115297
+      ]
+    },
+    {
+      "curve": "Shintani_F",
+      "model": "E",
+      "early": {
+        "parameters": [
+          0.14433618781643126,
+          0.18800441973249452,
+          -0.725224434760209
+        ],
+        "bounds": [
+          [
+            0.0,
+            0.17922088256318208
+          ],
+          [
+            1e-05,
+            0.8
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ]
+        ],
+        "objective": "least_squares",
+        "objective_normalized": 0.015227722493500318,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.015227722494418814,
+            "success": true,
+            "iterations": 92
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.0152277224936885,
+            "success": true,
+            "iterations": 73
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": []
+      },
+      "all_points": {
+        "parameters": [
+          0.09412051530777928,
+          0.20916599050578874,
+          -0.13546209436411896
+        ],
+        "bounds": [
+          [
+            0.0,
+            0.17922088256318208
+          ],
+          [
+            1e-05,
+            0.8
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ]
+        ],
+        "objective": "minimax",
+        "objective_normalized": 0.10460826515253886,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.10460826524776684,
+            "success": true,
+            "iterations": 162
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.10460826528534536,
+            "success": true,
+            "iterations": 150
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": []
+      },
+      "training_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "test_indices": [
+        6,
+        7
+      ],
+      "early_predictions": [
+        0.1831678944468724,
+        0.21629301779450788,
+        0.2404086931999062,
+        0.26035354245275655,
+        0.28807565025480164,
+        0.3050355996611564,
+        0.3155072906668785,
+        0.32196185406129907
+      ],
+      "all_points_predictions": [
+        0.16547934423726168,
+        0.2156696402493159,
+        0.24572635843469548,
+        0.26625575591424766,
+        0.2878815392953939,
+        0.2968412237778894,
+        0.30059271770836526,
+        0.3021604194578173
+      ]
+    },
+    {
+      "curve": "Shintani_F",
+      "model": "W",
+      "early": {
+        "parameters": [
+          1.9479097402481767e-28,
+          0.7999999999999999,
+          -3.8313567025977306,
+          0.2975269847874865
+        ],
+        "bounds": [
+          [
+            0.0,
+            0.17922088256318208
+          ],
+          [
+            1e-05,
+            0.8
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ],
+          [
+            0.1,
+            3.0
+          ]
+        ],
+        "objective": "least_squares",
+        "objective_normalized": 0.010006555537988824,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.010006555539385325,
+            "success": true,
+            "iterations": 253
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.01000655553910958,
+            "success": true,
+            "iterations": 264
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          0,
+          1
+        ]
+      },
+      "all_points": {
+        "parameters": [
+          0.17922088256318142,
+          0.12073260926988648,
+          -0.58792811844464,
+          1.9990515583222703
+        ],
+        "bounds": [
+          [
+            0.0,
+            0.17922088256318208
+          ],
+          [
+            1e-05,
+            0.8
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ],
+          [
+            0.1,
+            3.0
+          ]
+        ],
+        "objective": "minimax",
+        "objective_normalized": 0.08779299989031578,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.08779299992744932,
+            "success": true,
+            "iterations": 295
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.08779299996854541,
+            "success": true,
+            "iterations": 311
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          0
+        ]
+      },
+      "training_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "test_indices": [
+        6,
+        7
+      ],
+      "early_predictions": [
+        0.18114771664966195,
+        0.21878806239594215,
+        0.24142812921473084,
+        0.25947551513187217,
+        0.28627136762790517,
+        0.3062457397703386,
+        0.3223753277801341,
+        0.33593780999181133
+      ],
+      "all_points_predictions": [
+        0.18744290370877653,
+        0.2110919972893237,
+        0.2384005687386199,
+        0.26404687106442787,
+        0.29224571339097033,
+        0.299050108627708,
+        0.2998963468086363,
+        0.2999515346079973
+      ]
+    },
+    {
+      "curve": "Shintani_F",
+      "model": "P2",
+      "early": {
+        "parameters": [
+          0.051307865715592905,
+          0.7999999999999999,
+          0.8103978755037063,
+          -3.112042508981719,
+          1.0705912872234977
+        ],
+        "bounds": [
+          [
+            0.0,
+            0.17922088256318208
+          ],
+          [
+            1e-05,
+            0.8
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ]
+        ],
+        "objective": "least_squares",
+        "objective_normalized": 0.005908562767756816,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.005908562771171174,
+            "success": true,
+            "iterations": 393
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.005908562769975148,
+            "success": true,
+            "iterations": 334
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          1
+        ]
+      },
+      "all_points": {
+        "parameters": [
+          0.09412051530777908,
+          0.20916599050578924,
+          0.9999999999999919,
+          -0.1354620943641197,
+          -6.877490832139673
+        ],
+        "bounds": [
+          [
+            0.0,
+            0.17922088256318208
+          ],
+          [
+            1e-05,
+            0.8
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ],
+          [
+            -6.907755278982137,
+            3.4011973816621555
+          ]
+        ],
+        "objective": "minimax",
+        "objective_normalized": 0.10460826515253717,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.10504822425966268,
+            "success": false,
+            "iterations": 500
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.1050380130766535,
+            "success": false,
+            "iterations": 500
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          2
+        ]
+      },
+      "training_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "test_indices": [
+        6,
+        7
+      ],
+      "early_predictions": [
+        0.1789951803656026,
+        0.22282212427657844,
+        0.24221513427335423,
+        0.2572805649177171,
+        0.2836709844143928,
+        0.3083504094244134,
+        0.3319645526081999,
+        0.3545455129997587
+      ],
+      "all_points_predictions": [
+        0.16547934423726104,
+        0.21566964024931495,
+        0.24572635843469437,
+        0.26625575591424644,
+        0.28788153929539256,
+        0.2968412237778881,
+        0.3005927177083639,
+        0.3021604194578159
+      ]
+    },
+    {
+      "curve": "H_STD",
+      "model": "E",
+      "early": {
+        "parameters": [
+          99.99999999999999,
+          -8.079230971303415
+        ],
+        "bounds": [
+          [
+            1e-06,
+            100.0
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ]
+        ],
+        "objective": "least_squares",
+        "objective_normalized": 0.07273323721903553,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.07273323722641117,
+            "success": true,
+            "iterations": 53
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.07273323723673132,
+            "success": true,
+            "iterations": 52
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          0
+        ]
+      },
+      "all_points": {
+        "parameters": [
+          6.68108746723539,
+          6.48441502683778,
+          -4.783784383789707
+        ],
+        "bounds": [
+          [
+            0.0,
+            6.874186727391016
+          ],
+          [
+            1e-05,
+            100.0
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ]
+        ],
+        "objective": "minimax",
+        "objective_normalized": 0.07034462948773289,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.07034462950935955,
+            "success": true,
+            "iterations": 222
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.0703446295884133,
+            "success": true,
+            "iterations": 294
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": []
+      },
+      "training_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "test_indices": [
+        5,
+        6
+      ],
+      "early_predictions": [
+        7.0,
+        7.1548346437519665,
+        7.309429549834875,
+        7.617901633206641,
+        8.842274418404742,
+        10.6506090864824,
+        12.425629267570915
+      ],
+      "all_points_predictions": [
+        6.68108746723539,
+        6.9466824638091875,
+        7.201398961410744,
+        7.679960498211298,
+        9.239803237956407,
+        10.788863339162205,
+        11.726672541968478
+      ]
+    },
+    {
+      "curve": "H_STD",
+      "model": "W",
+      "early": {
+        "parameters": [
+          2.0202926411146063,
+          -3.409018017205417,
+          3.9999999999999996
+        ],
+        "bounds": [
+          [
+            1e-06,
+            100.0
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ],
+          [
+            0.1,
+            4.0
+          ]
+        ],
+        "objective": "least_squares",
+        "objective_normalized": 0.006301407909968534,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.00630140791231884,
+            "success": true,
+            "iterations": 110
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.006301407910131051,
+            "success": true,
+            "iterations": 217
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          2
+        ]
+      },
+      "all_points": {
+        "parameters": [
+          6.874186727391016,
+          4.644579307036807,
+          -4.3307371085193616,
+          1.6838369948824252
+        ],
+        "bounds": [
+          [
+            0.0,
+            6.874186727391016
+          ],
+          [
+            1e-05,
+            100.0
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ],
+          [
+            0.1,
+            4.0
+          ]
+        ],
+        "objective": "minimax",
+        "objective_normalized": 0.027751458901900655,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.09978992319632017,
+            "success": false,
+            "iterations": 500
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.10072065892559445,
+            "success": false,
+            "iterations": 500
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          0
+        ]
+      },
+      "training_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "test_indices": [
+        5,
+        6
+      ],
+      "early_predictions": [
+        7.0,
+        7.001510292492259,
+        7.02402966704591,
+        7.352009356270104,
+        9.020292268970522,
+        9.020292641114606,
+        9.020292641114606
+      ],
+      "all_points_predictions": [
+        6.874186727391016,
+        6.921468275875983,
+        7.024389587384224,
+        7.339719042551033,
+        9.145967646536942,
+        10.98196260049123,
+        11.453888533610664
+      ]
+    },
+    {
+      "curve": "H_STD",
+      "model": "P2",
+      "early": {
+        "parameters": [
+          99.99999999999999,
+          0.5,
+          -8.079230971303415,
+          -8.079230971303415
+        ],
+        "bounds": [
+          [
+            1e-06,
+            100.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ]
+        ],
+        "objective": "least_squares",
+        "objective_normalized": 0.07273323721903553,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.07273323722131043,
+            "success": true,
+            "iterations": 151
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.07273323722020414,
+            "success": true,
+            "iterations": 161
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          0
+        ]
+      },
+      "all_points": {
+        "parameters": [
+          6.68108746723539,
+          6.48441502683778,
+          0.5,
+          -4.783784383789707,
+          -4.783784383789707
+        ],
+        "bounds": [
+          [
+            0.0,
+            6.874186727391016
+          ],
+          [
+            1e-05,
+            100.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ]
+        ],
+        "objective": "minimax",
+        "objective_normalized": 0.07034462948773289,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.07036798366922563,
+            "success": false,
+            "iterations": 500
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.07034506496430935,
+            "success": true,
+            "iterations": 453
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": []
+      },
+      "training_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "test_indices": [
+        5,
+        6
+      ],
+      "early_predictions": [
+        7.0,
+        7.1548346437519665,
+        7.309429549834875,
+        7.617901633206641,
+        8.842274418404742,
+        10.6506090864824,
+        12.425629267570915
+      ],
+      "all_points_predictions": [
+        6.68108746723539,
+        6.9466824638091875,
+        7.201398961410744,
+        7.679960498211298,
+        9.239803237956407,
+        10.788863339162205,
+        11.726672541968478
+      ]
+    },
+    {
+      "curve": "H_HIGH",
+      "model": "E",
+      "early": {
+        "parameters": [
+          18.358857556607422,
+          -4.294970956006296
+        ],
+        "bounds": [
+          [
+            1e-06,
+            100.0
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ]
+        ],
+        "objective": "least_squares",
+        "objective_normalized": 0.08688276630411758,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.08688276630803712,
+            "success": true,
+            "iterations": 40
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.08688276631018269,
+            "success": true,
+            "iterations": 38
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": []
+      },
+      "all_points": {
+        "parameters": [
+          25.0,
+          18.578869153495187,
+          -4.295896303320857
+        ],
+        "bounds": [
+          [
+            0.0,
+            25.0
+          ],
+          [
+            1e-05,
+            100.0
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ]
+        ],
+        "objective": "minimax",
+        "objective_normalized": 0.0828934438858933,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.08289344392214204,
+            "success": true,
+            "iterations": 196
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.0828934438996863,
+            "success": true,
+            "iterations": 182
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          0
+        ]
+      },
+      "training_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "test_indices": [
+        5,
+        6
+      ],
+      "early_predictions": [
+        25.0,
+        26.210072655526012,
+        27.34038676250744,
+        29.382421071370576,
+        35.25861430039581,
+        39.78489111520503,
+        41.78196218195612
+      ],
+      "all_points_predictions": [
+        25.0,
+        26.223479612117043,
+        27.366389069565418,
+        29.43137135369658,
+        35.37534704260762,
+        39.956594058718466,
+        41.97944921107485
+      ]
+    },
+    {
+      "curve": "H_HIGH",
+      "model": "W",
+      "early": {
+        "parameters": [
+          99.99999999999999,
+          -7.091774890901584,
+          0.7482327581702674
+        ],
+        "bounds": [
+          [
+            1e-06,
+            100.0
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ],
+          [
+            0.1,
+            4.0
+          ]
+        ],
+        "objective": "least_squares",
+        "objective_normalized": 0.0694527143969307,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.06945271441248618,
+            "success": true,
+            "iterations": 99
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.06945271440806339,
+            "success": true,
+            "iterations": 97
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          0
+        ]
+      },
+      "all_points": {
+        "parameters": [
+          25.0,
+          100.0,
+          -7.348721850766886,
+          0.7222910990444187
+        ],
+        "bounds": [
+          [
+            0.0,
+            25.0
+          ],
+          [
+            1e-05,
+            100.0
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ],
+          [
+            0.1,
+            4.0
+          ]
+        ],
+        "objective": "minimax",
+        "objective_normalized": 0.0714162010019399,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.07141703979390453,
+            "success": false,
+            "iterations": 500
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.07141620101771724,
+            "success": true,
+            "iterations": 326
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          0,
+          1
+        ]
+      },
+      "training_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "test_indices": [
+        5,
+        6
+      ],
+      "early_predictions": [
+        25.0,
+        26.640249251222016,
+        27.739796116325472,
+        29.559148636812896,
+        35.07223345549207,
+        41.33306449625722,
+        46.457546704308825
+      ],
+      "all_points_predictions": [
+        25.0,
+        26.57118270216701,
+        27.578880476732973,
+        29.218879946529047,
+        34.09100359631486,
+        39.55048438277075,
+        44.00222371271285
+      ]
+    },
+    {
+      "curve": "H_HIGH",
+      "model": "P2",
+      "early": {
+        "parameters": [
+          99.99999999999983,
+          0.01375821664483361,
+          1.5865678416441442,
+          -6.475297419779689
+        ],
+        "bounds": [
+          [
+            1e-06,
+            100.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ]
+        ],
+        "objective": "least_squares",
+        "objective_normalized": 0.05005956153545629,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.05005956154024005,
+            "success": true,
+            "iterations": 143
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.050059561546423985,
+            "success": true,
+            "iterations": 121
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": [
+          0
+        ]
+      },
+      "all_points": {
+        "parameters": [
+          24.918168190778935,
+          33.439524674554214,
+          0.9621287756822129,
+          -5.344811014972756,
+          0.9226016312588063
+        ],
+        "bounds": [
+          [
+            0.0,
+            25.0
+          ],
+          [
+            1e-05,
+            100.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ],
+          [
+            -13.815510557964274,
+            2.302585092994046
+          ]
+        ],
+        "objective": "minimax",
+        "objective_normalized": 0.06573458138299287,
+        "global_search_runs": [
+          {
+            "seed": 20261112,
+            "objective": 0.06573776330504465,
+            "success": false,
+            "iterations": 500
+          },
+          {
+            "seed": 20261113,
+            "objective": 0.06573458140178158,
+            "success": true,
+            "iterations": 429
+          }
+        ],
+        "finite_numerically_usable": true,
+        "active_bounds": []
+      },
+      "training_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "test_indices": [
+        5,
+        6
+      ],
+      "early_predictions": [
+        25.0,
+        27.1328207852352,
+        27.884009488380443,
+        29.36913369288378,
+        35.08596781103153,
+        43.02686399094239,
+        50.26644769931825
+      ],
+      "all_points_predictions": [
+        24.918168190778935,
+        26.94325875828942,
+        27.68407083996112,
+        29.113689583300875,
+        34.196193959542946,
+        40.21279839260231,
+        44.73117090532189
+      ]
+    }
+  ],
+  "checks": {
+    "Shintani_A_E_finite": true,
+    "Shintani_A_E_nonnegative": true,
+    "Shintani_A_E_monotone": true,
+    "Shintani_A_W_finite": true,
+    "Shintani_A_W_nonnegative": true,
+    "Shintani_A_W_monotone": true,
+    "Shintani_A_P2_finite": true,
+    "Shintani_A_P2_nonnegative": true,
+    "Shintani_A_P2_monotone": true,
+    "Shintani_A_P2_contains_E_training": true,
+    "Shintani_A_P2_contains_E_minimax": true,
+    "Shintani_F_E_finite": true,
+    "Shintani_F_E_nonnegative": true,
+    "Shintani_F_E_monotone": true,
+    "Shintani_F_W_finite": true,
+    "Shintani_F_W_nonnegative": true,
+    "Shintani_F_W_monotone": true,
+    "Shintani_F_P2_finite": true,
+    "Shintani_F_P2_nonnegative": true,
+    "Shintani_F_P2_monotone": true,
+    "Shintani_F_P2_contains_E_training": true,
+    "Shintani_F_P2_contains_E_minimax": true,
+    "H_STD_E_finite": true,
+    "H_STD_E_nonnegative": true,
+    "H_STD_E_monotone": true,
+    "H_STD_W_finite": true,
+    "H_STD_W_nonnegative": true,
+    "H_STD_W_monotone": true,
+    "H_STD_P2_finite": true,
+    "H_STD_P2_nonnegative": true,
+    "H_STD_P2_monotone": true,
+    "H_STD_P2_contains_E_training": true,
+    "H_STD_P2_contains_E_minimax": true,
+    "H_HIGH_E_finite": true,
+    "H_HIGH_E_nonnegative": true,
+    "H_HIGH_E_monotone": true,
+    "H_HIGH_W_finite": true,
+    "H_HIGH_W_nonnegative": true,
+    "H_HIGH_W_monotone": true,
+    "H_HIGH_P2_finite": true,
+    "H_HIGH_P2_nonnegative": true,
+    "H_HIGH_P2_monotone": true,
+    "H_HIGH_P2_contains_E_training": true,
+    "H_HIGH_P2_contains_E_minimax": true,
+    "inactivation_integrated_rate": true,
+    "forecast_risk_difference": true
+  },
+  "check_count": 46
+}

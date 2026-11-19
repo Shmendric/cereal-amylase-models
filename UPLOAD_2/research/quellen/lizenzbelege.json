@@ -1,0 +1,21 @@
+{
+  "checked": "2026-11-18",
+  "shintani": {
+    "url": "https://www.jstage.jst.go.jp/article/fstr/27/4/27_567/_article",
+    "license": "CC-BY-NC-SA-4.0",
+    "original_copyright": "2021 Japanese Society for Food Science and Technology"
+  },
+  "infogest": {
+    "original_jats_sha256": "0e232b6e7e5c15d05a5a17833cf8824293b131df5bc8e6c7933fcbc957ec95ae",
+    "license_elements": [
+      "<license xmlns:ns0=\"http://www.w3.org/1999/xlink\"><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ns0:href=\"https://creativecommons.org/licenses/by/4.0/\" ext-link-type=\"uri\">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p></license>"
+    ]
+  },
+  "policy_sources": [
+    "https://help.zenodo.org/docs/deposit/describe-records/licenses/",
+    "https://creativecommons.org/faq/",
+    "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
+  ],
+  "scope_of_current_check": "J-STAGE sowie offizielle CC-Lizenzbedingungen neu geöffnet. INFOGEST weiterhin anhand des zuvor archivierten JATS-Lizenzbelegs. Kein neuer freier Originallizenznachweis für Hackenberg."
+}

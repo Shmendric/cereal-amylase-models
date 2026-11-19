@@ -1,0 +1,47 @@
+[
+  {
+    "id": "S",
+    "reference": "[5] Shintani, K., Miyagawa, Y. & Adachi, S. (2021). Maltose formation from wheat flour with different degrees of damaged starch. Food Science and Technology Research 27, 567–572.",
+    "url": "https://doi.org/10.3136/fstr.27.567",
+    "source_figure": "2; Proben A und F",
+    "material": "16 technische Kurvenablesungen, daraus konstruierte Pixelvarianten und eigene Reanalysen",
+    "original_license": "CC-BY-NC-SA-4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "evidence": "Verlagsseite J-STAGE am 18. November 2026 erneut geprüft. © 2021 Japanese Society for Food Science and Technology. CC BY-NC-SA 4.0 bleibt für die bezeichneten Anteile erhalten.",
+    "evidence_url": "https://www.jstage.jst.go.jp/article/fstr/27/4/27_567/_article",
+    "changes": "Ablesen von Bildkoordinaten, Mengenkalibrierung, Auswahl A/F, Modellrechnung, neue Darstellung; keine neuen Experimente.",
+    "permission_scope": "Quellenspezifische Bedingungen für betroffene Shintani-Anteile beibehalten; Originalartikel und Originalgrafiken nicht beigelegt.",
+    "time_unit": "h",
+    "quantity_unit": "g Maltose je g eingesetztes Mehl"
+  },
+  {
+    "id": "H",
+    "reference": "[11] Hackenberg, S., Leitner, T., Jekle, M. & Becker, T. (2018). Maltose formation in wheat dough depending on mechanical starch modification and dough hydration. Carbohydrate Polymers 185, 153–158.",
+    "url": "https://doi.org/10.1016/j.carbpol.2017.12.064",
+    "source_figure": "1B; Artikel S. 155, Dissertation PDF-S. 51",
+    "material": "14 technische numerische Ablesungen/Anfangsangaben, Ableseprotokoll und eigene Auswertungen",
+    "original_license": "Keine allgemeine freie Lizenz der Originalveröffentlichung belegt",
+    "license_url": "",
+    "evidence": "Ausgangsregister und gespeichertes technisches Protokoll der Fassung 29.",
+    "evidence_url": "https://mediatum.ub.tum.de/doc/1575003/1575003.pdf",
+    "changes": "Zahlenwerte und Koordinaten erfasst, Modelle angepasst und grafisch neu dargestellt.",
+    "permission_scope": "Keine Freigabe des Originalartikels oder seiner Grafik erklärt. Im Release nur technisch erhobene Zahlenangaben und eigene Bearbeitung; CC BY 4.0 betrifft allein eigene Beiträge, keine fremden Text-, Bild- oder Datenbankrechte.",
+    "time_unit": "min",
+    "quantity_unit": "mg Maltose je g trockenes Mehl"
+  },
+  {
+    "id": "I",
+    "reference": "[36] Freitas, D. et al. (2025). Interlaboratory validation of an optimized protocol for measuring α-amylase activity by the INFOGEST international research network. Scientific Reports 15, 30985.",
+    "url": "https://doi.org/10.1038/s41598-025-12561-y",
+    "source_figure": "Tabelle 1, Panel A",
+    "material": "20 Paare publizierter Aktivitätsmittelwerte, 40 zugehörige SD-Angaben und isolierte XML-Tabelle",
+    "original_license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "Lizenzangabe im archivierten Original-JATS; keine erneute Verlagsabfrage erfolgreich.",
+    "evidence_url": "https://doi.org/10.1038/s41598-025-12561-y",
+    "changes": "Panel A als CSV erfasst und laborweise nachgerechnet; Tabelle als XML-Auszug unverändert übernommen.",
+    "permission_scope": "Quelle und Änderungen nennen; veröffentlichte Mittelwerte/SD sind keine individuellen Rohreplikate.",
+    "quantities": "Mittelwerte und publizierte SD",
+    "units": "U/mg für amylase_M, amylase_S und pancreatin; U/mL für saliva. Temperaturbezüge 20 °C und 37 °C. Die Reanalyse verwendet dimensionslose Quotienten innerhalb desselben Produkts und Labors."
+  }
+]

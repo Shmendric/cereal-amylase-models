@@ -1,0 +1,13 @@
+﻿curve,model,time_unit,value_unit,training_points,later_points,early_RMSE,later_RMSE,full_numerical_minimax,amplitude_cap,initial_value_policy,training_parameters,full_parameters,training_residual_degrees_of_freedom
+Shintani_A,E,h,g maltose / g input flour,6,2,0.0023462695766901928,0.019451596259620733,0.010532631499970635,0.8,free_nonnegative,3,3,3
+Shintani_A,W,h,g maltose / g input flour,6,2,0.0011087178960328295,0.02508493763380248,0.010312085295205609,0.8,free_nonnegative,4,4,2
+Shintani_A,P2,h,g maltose / g input flour,6,2,7.883013015273862e-05,0.028114367131211213,0.010532631499970635,0.8,free_nonnegative,5,5,1
+Shintani_F,E,h,g maltose / g input flour,6,2,0.006617762932751955,0.027383047159187057,0.013741538325921843,0.8,free_nonnegative,3,3,3
+Shintani_F,W,h,g maltose / g input flour,6,2,0.005364583798036465,0.038376957732779014,0.011532653476101995,0.8,free_nonnegative,4,4,2
+Shintani_F,P2,h,g maltose / g input flour,6,2,0.004122253119245228,0.05317467991252255,0.01374153832592162,0.8,free_nonnegative,5,5,1
+H_STD,E,min,mg maltose / g dry flour,4,2,0.2893740837385433,0.7890054806027215,0.3189125327646103,100.0,reported_initial_fixed_for_continuation,2,3,2
+H_STD,W,min,mg maltose / g dry flour,4,2,0.08517496647592107,2.24249712069082,0.12581327260898423,100.0,reported_initial_fixed_for_continuation,3,4,1
+H_STD,P2,min,mg maltose / g dry flour,4,2,0.2893740837385433,0.7890054806027215,0.3189125327646103,100.0,reported_initial_fixed_for_continuation,4,5,0
+H_HIGH,E,min,mg maltose / g dry flour,4,2,1.201363702653072,1.4329178946829906,1.5347017323213734,100.0,reported_initial_fixed_for_continuation,2,3,2
+H_HIGH,W,min,mg maltose / g dry flour,4,2,1.0741187507590184,2.110697149790881,1.32221032515384,100.0,reported_initial_fixed_for_continuation,3,4,1
+H_HIGH,P2,min,mg maltose / g dry flour,4,2,0.9119083803753333,5.019506806259406,1.2170199619256934,100.0,reported_initial_fixed_for_continuation,4,5,0

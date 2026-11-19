@@ -1,0 +1,15 @@
+{
+  "source_manuscript_version": 36,
+  "source_working_archive_sha256": "b9352e21f8b12ff7c61af9c83898933c4cc189df77ec9e32f1b572ed570a0f1f",
+  "public_package_version": "1.0",
+  "selection": "Einzeln ausgewählte Programme, technische Datenablesungen, eigene Darstellungen, aktuelle Monografie und Herkunftsnachweise.",
+  "excluded_categories": [
+    "persönliche Kritik und Korrespondenz",
+    "historische Manuskriptkopien",
+    "Original-PDFs wissenschaftlicher Fremdwerke",
+    "Originalabbildungen und Bildausschnitte",
+    "nicht ausgewertete Kontextarbeitsmappen",
+    "Recherche-Zwischenablagen"
+  ],
+  "scope": "Vier Mehlkurven aus zwei Publikationsfamilien und 20 Aktivitätspaare aus fünf Laboren. Keine neuen Messungen."
+}

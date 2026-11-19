@@ -1,0 +1,75 @@
+{
+  "model": "p0 + amplitude * (1 - exp(-rate * t)); p0>=0, amplitude>=0, rate>0",
+  "data_sha256": "9331376a3564ab28947cfc1116346e93c574f0616f82bed0bcfa234fff25deaf",
+  "discovery_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "candidates": [
+    {
+      "curve": "Shintani_A",
+      "p0": "0.007146876580503031",
+      "amplitude": "0.23326997451713374",
+      "rate": "1.5145650119297469",
+      "optimizer_epsilon": "0.010532631499969742",
+      "suggested_active_indices_zero_based": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "n_points": 8,
+      "time_unit": "h",
+      "value_unit": "g maltose / g input flour"
+    },
+    {
+      "curve": "Shintani_F",
+      "p0": "0.094120515307778707",
+      "amplitude": "0.20916599050578852",
+      "rate": "0.87331226575783949",
+      "optimizer_epsilon": "0.01374153832592101",
+      "suggested_active_indices_zero_based": [
+        0,
+        3,
+        5,
+        7
+      ],
+      "n_points": 8,
+      "time_unit": "h",
+      "value_unit": "g maltose / g input flour"
+    },
+    {
+      "curve": "H_STD",
+      "p0": "6.6810874672353897",
+      "amplitude": "6.4844150268377847",
+      "rate": "0.0083642853312350194",
+      "optimizer_epsilon": "0.31891253276461018",
+      "suggested_active_indices_zero_based": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "n_points": 7,
+      "time_unit": "min",
+      "value_unit": "mg maltose / g dry flour"
+    },
+    {
+      "curve": "H_HIGH",
+      "p0": "26.184563930794177",
+      "amplitude": "32.173128934365138",
+      "rate": "0.0047728531179307429",
+      "optimizer_epsilon": "1.2170199619203776",
+      "suggested_active_indices_zero_based": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "n_points": 7,
+      "time_unit": "min",
+      "value_unit": "mg maltose / g dry flour"
+    }
+  ]
+}

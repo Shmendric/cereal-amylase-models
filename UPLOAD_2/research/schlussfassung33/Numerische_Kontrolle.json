@@ -1,0 +1,587 @@
+{
+  "status": "PASS",
+  "version": 33,
+  "checks": [
+    {
+      "name": "A persistence vs manuscript",
+      "passed": true,
+      "detail": {
+        "calculated": 0.017849445694528412,
+        "printed": 0.01785
+      }
+    },
+    {
+      "name": "A E early/late vs manuscript",
+      "passed": true,
+      "detail": {
+        "early": 0.0023462695766902925,
+        "late": 0.019451594981214255,
+        "printed": [
+          "0,00235",
+          "0,01945"
+        ]
+      }
+    },
+    {
+      "name": "A W early/late vs manuscript",
+      "passed": true,
+      "detail": {
+        "early": 0.001108717896032833,
+        "late": 0.025084937545321977,
+        "printed": [
+          "0,00111",
+          "0,02508"
+        ]
+      }
+    },
+    {
+      "name": "F persistence vs manuscript",
+      "passed": true,
+      "detail": {
+        "calculated": 0.01870044271567669,
+        "printed": 0.0187
+      }
+    },
+    {
+      "name": "F E early/late vs manuscript",
+      "passed": true,
+      "detail": {
+        "early": 0.006617762932753053,
+        "late": 0.02738306512286335,
+        "printed": [
+          "0,00662",
+          "0,02738"
+        ]
+      }
+    },
+    {
+      "name": "F W early/late vs manuscript",
+      "passed": true,
+      "detail": {
+        "early": 0.0053645837980364685,
+        "late": 0.038376957698379344,
+        "printed": [
+          "0,00536",
+          "0,03838"
+        ]
+      }
+    },
+    {
+      "name": "H_STD persistence vs manuscript",
+      "passed": true,
+      "detail": {
+        "calculated": 2.24263507826265,
+        "printed": 2.24264
+      }
+    },
+    {
+      "name": "H_STD E early/late vs manuscript",
+      "passed": true,
+      "detail": {
+        "early": 0.28937408373854456,
+        "late": 0.7890054144738687,
+        "printed": [
+          "0,28937",
+          "0,78901"
+        ]
+      }
+    },
+    {
+      "name": "H_STD W early/late vs manuscript",
+      "passed": true,
+      "detail": {
+        "early": 0.08517496647592113,
+        "late": 2.2424971148518646,
+        "printed": [
+          "0,08517",
+          "2,24250"
+        ]
+      }
+    },
+    {
+      "name": "H_HIGH persistence vs manuscript",
+      "passed": true,
+      "detail": {
+        "calculated": 6.893401807683435,
+        "printed": 6.8934
+      }
+    },
+    {
+      "name": "H_HIGH E early/late vs manuscript",
+      "passed": true,
+      "detail": {
+        "early": 1.2013637026530768,
+        "late": 1.4329174907939153,
+        "printed": [
+          "1,20136",
+          "1,43292"
+        ]
+      }
+    },
+    {
+      "name": "H_HIGH W early/late vs manuscript",
+      "passed": true,
+      "detail": {
+        "early": 1.0741187507590282,
+        "late": 2.110696415846641,
+        "printed": [
+          "1,07412",
+          "2,11070"
+        ]
+      }
+    },
+    {
+      "name": "a_hardbounds outward rounding",
+      "passed": true,
+      "detail": {
+        "exact_lower": "38/105",
+        "exact_upper": "42/95",
+        "display_lower": ".36190",
+        "display_upper": ".44211"
+      }
+    },
+    {
+      "name": "v_hardbounds outward rounding",
+      "passed": true,
+      "detail": {
+        "exact_lower": "361/42000",
+        "exact_upper": "441/38000",
+        "display_lower": ".00859",
+        "display_upper": ".01161"
+      }
+    },
+    {
+      "name": "v_kappa outward rounding",
+      "passed": true,
+      "detail": {
+        "exact_lower": "39/4100",
+        "exact_upper": "41/3900",
+        "display_lower": ".009512",
+        "display_upper": ".010513"
+      }
+    },
+    {
+      "name": "a_kappa outward rounding",
+      "passed": true,
+      "detail": {
+        "exact_lower": "741/2050",
+        "exact_upper": "287/650",
+        "display_lower": ".36146",
+        "display_upper": ".44154"
+      }
+    },
+    {
+      "name": "A E new contour refit converged",
+      "passed": true,
+      "detail": "`ftol` termination condition is satisfied."
+    },
+    {
+      "name": "A W new contour refit converged",
+      "passed": true,
+      "detail": "`ftol` termination condition is satisfied."
+    },
+    {
+      "name": "A contour variant retains E/W order",
+      "passed": true,
+      "detail": {
+        "E": 0.020363933429378905,
+        "W": 0.02583477452793686
+      }
+    },
+    {
+      "name": "A persistence still better in contour variant",
+      "passed": true,
+      "detail": {
+        "curve": "A",
+        "unit": "g/g",
+        "max_abs_value_difference": 0.0016335291768259097,
+        "max_abs_symbol_dy": 3.5569760260606813,
+        "persistence_RMSE": 0.01839933579359279,
+        "E_late_RMSE": 0.020363933429378905,
+        "W_late_RMSE": 0.02583477452793686
+      }
+    },
+    {
+      "name": "A late decrease remains in contour variant",
+      "passed": true,
+      "detail": {
+        "fall": 0.021179435695307697
+      }
+    },
+    {
+      "name": "F E new contour refit converged",
+      "passed": true,
+      "detail": "`ftol` termination condition is satisfied."
+    },
+    {
+      "name": "F W new contour refit converged",
+      "passed": true,
+      "detail": "`ftol` termination condition is satisfied."
+    },
+    {
+      "name": "F contour variant retains E/W order",
+      "passed": true,
+      "detail": {
+        "E": 0.02645887271016138,
+        "W": 0.0378443511652219
+      }
+    },
+    {
+      "name": "F persistence still better in contour variant",
+      "passed": true,
+      "detail": {
+        "curve": "F",
+        "unit": "g/g",
+        "max_abs_value_difference": 0.0008214891447642647,
+        "max_abs_symbol_dy": 1.582019934326098,
+        "persistence_RMSE": 0.018483501779560173,
+        "E_late_RMSE": 0.02645887271016138,
+        "W_late_RMSE": 0.0378443511652219
+      }
+    },
+    {
+      "name": "F late decrease remains in contour variant",
+      "passed": true,
+      "detail": {
+        "fall": 0.013704340737139331
+      }
+    },
+    {
+      "name": "H_STD E new contour refit converged",
+      "passed": true,
+      "detail": "Both `ftol` and `xtol` termination conditions are satisfied."
+    },
+    {
+      "name": "H_STD W new contour refit converged",
+      "passed": true,
+      "detail": "`ftol` termination condition is satisfied."
+    },
+    {
+      "name": "H_STD contour variant retains E/W order",
+      "passed": true,
+      "detail": {
+        "E": 0.8838755985508095,
+        "W": 2.2465634296798958
+      }
+    },
+    {
+      "name": "H_STD E still better than persistence",
+      "passed": true,
+      "detail": {
+        "curve": "H_STD",
+        "unit": "mg/g",
+        "max_abs_value_difference": 0.08914007161912885,
+        "max_abs_symbol_dy": 0.30967055381063346,
+        "persistence_RMSE": 2.246626002001143,
+        "E_late_RMSE": 0.8838755985508095,
+        "W_late_RMSE": 2.2465634296798958
+      }
+    },
+    {
+      "name": "H_HIGH E new contour refit converged",
+      "passed": true,
+      "detail": "`ftol` termination condition is satisfied."
+    },
+    {
+      "name": "H_HIGH W new contour refit converged",
+      "passed": true,
+      "detail": "`ftol` termination condition is satisfied."
+    },
+    {
+      "name": "H_HIGH contour variant retains E/W order",
+      "passed": true,
+      "detail": {
+        "E": 1.772505800836656,
+        "W": 1.9853427683097113
+      }
+    },
+    {
+      "name": "H_HIGH E still better than persistence",
+      "passed": true,
+      "detail": {
+        "curve": "H_HIGH",
+        "unit": "mg/g",
+        "max_abs_value_difference": 0.12780849832357433,
+        "max_abs_symbol_dy": 0.7793576497440711,
+        "persistence_RMSE": 6.8705430938238194,
+        "E_late_RMSE": 1.772505800836656,
+        "W_late_RMSE": 1.9853427683097113
+      }
+    },
+    {
+      "name": "28 symbols retained inside original local scenarios",
+      "passed": true,
+      "detail": 28
+    }
+  ],
+  "nominal_errors": [
+    {
+      "curve": "A",
+      "model": "E",
+      "unit": "g/g",
+      "early_RMSE": 0.0023462695766902925,
+      "late_RMSE": 0.019451594981214255,
+      "persistence_late_RMSE": 0.017849445694528412
+    },
+    {
+      "curve": "A",
+      "model": "W",
+      "unit": "g/g",
+      "early_RMSE": 0.001108717896032833,
+      "late_RMSE": 0.025084937545321977,
+      "persistence_late_RMSE": 0.017849445694528412
+    },
+    {
+      "curve": "F",
+      "model": "E",
+      "unit": "g/g",
+      "early_RMSE": 0.006617762932753053,
+      "late_RMSE": 0.02738306512286335,
+      "persistence_late_RMSE": 0.01870044271567669
+    },
+    {
+      "curve": "F",
+      "model": "W",
+      "unit": "g/g",
+      "early_RMSE": 0.0053645837980364685,
+      "late_RMSE": 0.038376957698379344,
+      "persistence_late_RMSE": 0.01870044271567669
+    },
+    {
+      "curve": "H_STD",
+      "model": "E",
+      "unit": "mg/g",
+      "early_RMSE": 0.28937408373854456,
+      "late_RMSE": 0.7890054144738687,
+      "persistence_late_RMSE": 2.24263507826265
+    },
+    {
+      "curve": "H_STD",
+      "model": "W",
+      "unit": "mg/g",
+      "early_RMSE": 0.08517496647592113,
+      "late_RMSE": 2.2424971148518646,
+      "persistence_late_RMSE": 2.24263507826265
+    },
+    {
+      "curve": "H_HIGH",
+      "model": "E",
+      "unit": "mg/g",
+      "early_RMSE": 1.2013637026530768,
+      "late_RMSE": 1.4329174907939153,
+      "persistence_late_RMSE": 6.893401807683435
+    },
+    {
+      "curve": "H_HIGH",
+      "model": "W",
+      "unit": "mg/g",
+      "early_RMSE": 1.0741187507590282,
+      "late_RMSE": 2.110696415846641,
+      "persistence_late_RMSE": 6.893401807683435
+    }
+  ],
+  "rounding": [
+    {
+      "name": "a_hardbounds",
+      "exact_lower": "38/105",
+      "exact_upper": "42/95",
+      "decimal_lower": 0.3619047619047619,
+      "decimal_upper": 0.4421052631578947,
+      "display_lower": ".36190",
+      "display_upper": ".44211"
+    },
+    {
+      "name": "v_hardbounds",
+      "exact_lower": "361/42000",
+      "exact_upper": "441/38000",
+      "decimal_lower": 0.008595238095238095,
+      "decimal_upper": 0.011605263157894737,
+      "display_lower": ".00859",
+      "display_upper": ".01161"
+    },
+    {
+      "name": "v_kappa",
+      "exact_lower": "39/4100",
+      "exact_upper": "41/3900",
+      "decimal_lower": 0.00951219512195122,
+      "decimal_upper": 0.010512820512820513,
+      "display_lower": ".009512",
+      "display_upper": ".010513"
+    },
+    {
+      "name": "a_kappa",
+      "exact_lower": "741/2050",
+      "exact_upper": "287/650",
+      "decimal_lower": 0.36146341463414633,
+      "decimal_upper": 0.44153846153846155,
+      "display_lower": ".36146",
+      "display_upper": ".44154"
+    }
+  ],
+  "contour_refits": [
+    {
+      "curve": "A",
+      "model": "E",
+      "unit": "g/g",
+      "parameters": [
+        0.08377086902910753,
+        0.17112364035623726,
+        0.8475068294248265
+      ],
+      "early_RMSE": 0.0020360821368214797,
+      "late_RMSE": 0.020363933429378905,
+      "persistence_late_RMSE": 0.01839933579359279,
+      "starts": 3,
+      "status": "technical sensitivity variant; no global search certificate"
+    },
+    {
+      "curve": "A",
+      "model": "W",
+      "unit": "g/g",
+      "parameters": [
+        2.028968619951661e-18,
+        0.2703390635322901,
+        1.234309447051572,
+        0.6018854346794217
+      ],
+      "early_RMSE": 0.0008091082140291419,
+      "late_RMSE": 0.02583477452793686,
+      "persistence_late_RMSE": 0.01839933579359279,
+      "starts": 3,
+      "status": "technical sensitivity variant; no global search certificate"
+    },
+    {
+      "curve": "F",
+      "model": "E",
+      "unit": "g/g",
+      "parameters": [
+        0.14429544912212966,
+        0.18673180591414887,
+        0.4920086495442335
+      ],
+      "early_RMSE": 0.006888222450706296,
+      "late_RMSE": 0.02645887271016138,
+      "persistence_late_RMSE": 0.018483501779560173,
+      "starts": 3,
+      "status": "technical sensitivity variant; no global search certificate"
+    },
+    {
+      "curve": "F",
+      "model": "W",
+      "unit": "g/g",
+      "parameters": [
+        1.076873840165053e-33,
+        0.7694116012982783,
+        0.0259878222486391,
+        0.2992858169499109
+      ],
+      "early_RMSE": 0.005593645879008961,
+      "late_RMSE": 0.0378443511652219,
+      "persistence_late_RMSE": 0.018483501779560173,
+      "starts": 3,
+      "status": "technical sensitivity variant; no global search certificate"
+    },
+    {
+      "curve": "H_STD",
+      "model": "E",
+      "unit": "mg/g",
+      "parameters": [
+        99.99999999999999,
+        0.00032660671294613107
+      ],
+      "early_RMSE": 0.22925059890153174,
+      "late_RMSE": 0.8838755985508095,
+      "persistence_late_RMSE": 2.246626002001143,
+      "starts": 3,
+      "status": "technical sensitivity variant; no global search certificate"
+    },
+    {
+      "curve": "H_STD",
+      "model": "W",
+      "unit": "mg/g",
+      "parameters": [
+        2.082258989140472,
+        0.03499507150872193,
+        3.9999999999999996
+      ],
+      "early_RMSE": 0.02672385846492204,
+      "late_RMSE": 2.2465634296798958,
+      "persistence_late_RMSE": 2.246626002001143,
+      "starts": 3,
+      "status": "technical sensitivity variant; no global search certificate"
+    },
+    {
+      "curve": "H_HIGH",
+      "model": "E",
+      "unit": "mg/g",
+      "parameters": [
+        17.67877214474118,
+        0.014635683970591432
+      ],
+      "early_RMSE": 1.2448130542714904,
+      "late_RMSE": 1.772505800836656,
+      "persistence_late_RMSE": 6.8705430938238194,
+      "starts": 3,
+      "status": "technical sensitivity variant; no global search certificate"
+    },
+    {
+      "curve": "H_HIGH",
+      "model": "W",
+      "unit": "mg/g",
+      "parameters": [
+        99.99999999999999,
+        0.0007961138138060772,
+        0.7350501348740544
+      ],
+      "early_RMSE": 1.107094493068139,
+      "late_RMSE": 1.9853427683097113,
+      "persistence_late_RMSE": 6.8705430938238194,
+      "starts": 3,
+      "status": "technical sensitivity variant; no global search certificate"
+    }
+  ],
+  "contour_summary": [
+    {
+      "curve": "A",
+      "unit": "g/g",
+      "max_abs_value_difference": 0.0016335291768259097,
+      "max_abs_symbol_dy": 3.5569760260606813,
+      "persistence_RMSE": 0.01839933579359279,
+      "E_late_RMSE": 0.020363933429378905,
+      "W_late_RMSE": 0.02583477452793686
+    },
+    {
+      "curve": "F",
+      "unit": "g/g",
+      "max_abs_value_difference": 0.0008214891447642647,
+      "max_abs_symbol_dy": 1.582019934326098,
+      "persistence_RMSE": 0.018483501779560173,
+      "E_late_RMSE": 0.02645887271016138,
+      "W_late_RMSE": 0.0378443511652219
+    },
+    {
+      "curve": "H_STD",
+      "unit": "mg/g",
+      "max_abs_value_difference": 0.08914007161912885,
+      "max_abs_symbol_dy": 0.30967055381063346,
+      "persistence_RMSE": 2.246626002001143,
+      "E_late_RMSE": 0.8838755985508095,
+      "W_late_RMSE": 2.2465634296798958
+    },
+    {
+      "curve": "H_HIGH",
+      "unit": "mg/g",
+      "max_abs_value_difference": 0.12780849832357433,
+      "max_abs_symbol_dy": 0.7793576497440711,
+      "persistence_RMSE": 6.8705430938238194,
+      "E_late_RMSE": 1.772505800836656,
+      "W_late_RMSE": 1.9853427683097113
+    }
+  ],
+  "note": "Same AI-assisted project; no human independent rereading or new experiment.",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

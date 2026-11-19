@@ -1,0 +1,20 @@
+{
+  "reference": "[12] Padierna-Vanegas et al.",
+  "url": "https://doi.org/10.1021/acsomega.1c06193",
+  "scope": "Bedingte Transkription der im Manuskript untersuchten Teilstruktur. Keine Reproduktion des vollständigen Originalfits.",
+  "liquefaction": {
+    "S0": 161.4,
+    "h": [
+      -0.343724,
+      -0.335595,
+      -0.322011,
+      -0.455272
+    ],
+    "x0": [
+      0.0,
+      0.0,
+      0.0,
+      213.49
+    ]
+  }
+}
