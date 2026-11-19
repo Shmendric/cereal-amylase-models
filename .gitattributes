@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.pdf -text
+*.docx -text
+*.png -text
+*.npz -text
+# Preserve the byte-level checksums of the frozen research edition on all systems.
+/research/** -text
