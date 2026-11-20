@@ -89,9 +89,9 @@ The German and English PDFs are available at **https://zenodo.org/records/243784
 
 The Zenodo record is currently titled:
 
-> Bedeutung und Einschränkungen kinetischer Modelle der enzymatischen Stärkehydrolyse in Getreidesystemen
+> Significance and Limitations of Kinetic Models of Enzymatic Starch Hydrolysis in Cereal Systems
 
-The preserved research edition uses the earlier title *Aussagekraft und Grenzen kinetischer Modelle der enzymatischen Stärkehydrolyse in Getreidesystemen*. `CITATION.cff` follows the currently published Zenodo record. These title variants are documented explicitly rather than silently treated as byte-identical editions.
+The preserved research edition uses the earlier title *Aussagekraft und Grenzen kinetischer Modelle der enzymatischen Stärkehydrolyse in Getreidesystemen*. `CITATION.cff` follows the currently published Zenodo record; its title was aligned on 20 November 2026. These title variants are documented explicitly rather than silently treated as byte-identical editions.
 
 The DOI identifies the monograph record containing the two PDFs. It is **not** a DOI for this software snapshot. No software DOI, GitHub account, repository address, DNB number, ORCID or institutional affiliation has been invented. A DNB catalogue link can be added when it is available.
 

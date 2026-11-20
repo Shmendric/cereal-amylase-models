@@ -1,11 +1,21 @@
-# Kleine redaktionelle Hinweise zum vorhandenen Zenodo-Eintrag
+# Metadatenabgleich mit Zenodo
 
-Geprüfter Eintrag: https://zenodo.org/records/24378474
+Stand: 20. November 2026
+
+Eintrag: https://zenodo.org/records/24378474
 DOI der konkreten Version: 10.5281/zenodo.24378474
 DOI aller Versionen: 10.5281/zenodo.24378096
 
-Der Eintrag enthält die deutsche und die englische PDF. Autor, Publikationstyp Buch, Datum und DOI wurden aus dem öffentlichen Datensatz übernommen. Die GitHub-Zitiervorlage verwendet den aktuell veröffentlichten Zenodo-Titel.
+## Aktueller Titel und Zitiervorlage
 
-Bei Gelegenheit lässt sich im Zenodo-Stichwortfeld der Schreibfehler `identidiability` zu `identifiability` berichtigen. Außerdem lautet der Zenodo-Titel derzeit „Bedeutung und Einschränkungen kinetischer Modelle der enzymatischen Stärkehydrolyse in Getreidesystemen“, während der ursprüngliche Forschungsbestand „Aussagekraft und Grenzen …“ verwendet. Für eine spätere Vereinheitlichung sollte der gewünschte Titel mit den tatsächlich veröffentlichten Titelseiten abgestimmt werden. Diese Hinweise erfordern keine neue Forschungsarbeit.
+Der aktuelle Titel im Zenodo-Eintrag lautet:
 
-Es wurden keine Änderungen am Zenodo-Eintrag vorgenommen. Eine DNB-Nummer ist für die vorbereiteten Dateien nicht erforderlich und wurde nicht erfunden.
+> Significance and Limitations of Kinetic Models of Enzymatic Starch Hydrolysis in Cereal Systems
+
+Die Zitiervorlage `CITATION.cff` und die aktuelle Projektbeschreibung auf GitHub wurden an diesen Titel angeglichen. Autor, DOI und Publikationsdatum bleiben erhalten. Der Forschungsbestand unter `research/` bleibt unverändert. Die Datei `metadata/zenodo_record.json` dokumentiert weiterhin den damaligen Stand vom 19. November 2026, einschließlich des zu diesem Zeitpunkt angezeigten deutschen Titels. Auch der veröffentlichte GitHub-Release v1.0.0 bleibt als historischer Stand erhalten.
+
+## Noch offener Hinweis zu Zenodo
+
+Im Zenodo-Stichwortfeld steht weiterhin `identidiability`; richtig wäre `identifiability`. Die GitHub-Zitiervorlage enthält die richtige Schreibweise bereits. Der Rückverweis von Zenodo auf GitHub ist inzwischen vorhanden. An Zenodo wurden im Rahmen dieses GitHub-Abgleichs keine Änderungen vorgenommen.
+
+DNB-Katalogdaten können ergänzt werden, sobald sie verfügbar sind.

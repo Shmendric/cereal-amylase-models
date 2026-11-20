@@ -12,3 +12,7 @@ The root citation file points to the actual published record title, which differ
 The monograph DOI is not assigned to the software. GitHub/Zenodo automatic release archiving has not been configured. If the code is later archived as a separate research object, its own identifier can be linked to the monograph as related material.
 
 Any DNB catalogue link and Amazon edition links can be added when available. Their absence does not prevent reproduction of the calculation files or citation of the Zenodo monograph.
+
+## Citation metadata alignment, 20 November 2026
+
+The root citation file and README now use the current Zenodo title, *Significance and Limitations of Kinetic Models of Enzymatic Starch Hydrolysis in Cereal Systems*. The DOI and publication date are unchanged. `metadata/zenodo_record.json` remains the dated snapshot verified on 19 November 2026 and therefore retains the title observed on that date. The frozen research edition and the published GitHub release v1.0.0 are preserved.
