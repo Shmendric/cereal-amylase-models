@@ -97,6 +97,18 @@ The DOI identifies the monograph record containing the two PDFs. It is **not** a
 
 The original files under `research/` remain unchanged. Statements there that no DOI had yet been assigned describe the research snapshot prepared on 18 November 2026. The current publication link is documented here and in the root citation file.
 
+## Follow-up report: composite flours
+
+**Stefan Traublinger (2026). Rezepturpakete und isolierte Wirkungen in der Backqualität von Mischmehlen.** Scientific report, version 1.0. German full text with an English abstract.
+
+English title: *Formulation packages and isolated effects in the breadmaking quality of composite flours*.
+
+[Report and supplementary material on Zenodo](https://zenodo.org/records/24571866) · [Report DOI: 10.5281/zenodo.24571866](https://doi.org/10.5281/zenodo.24571866)
+
+This source-based secondary analysis examines 26 linked formulation contrasts from three purposefully selected source families covering einkorn, emmer, spelt and teff–wheat bread. Some contrasts share controls; they are not 26 independent studies. The report distinguishes formulation-package outcomes, isolated effects and model-dependent interaction claims. Its analytical contributions include constructive response-surface counterexamples, estimability checks and conditional bounds. No new baking experiments were performed; improved breadmaking performance or food-security benefits are not experimentally demonstrated by this analysis.
+
+The supplementary data extracts, code, editable manuscript and computational checks are available through the report's Zenodo record. The reproduction commands and frozen `research/` baseline described above apply to the original monograph. The follow-up report has its own citation information and component-specific licence allocation: original report text and figures under CC BY 4.0 where applicable rights are held, Python code under MIT, and retained source attribution and third-party rights as documented in its archive.
+
 ## Licensing and provenance
 
 Original project contributions are offered under **CC BY 4.0 where the relevant rights exist**. Attribution to Stefan Traublinger is required under that licence. Explicitly marked Shintani-derived components retain **CC BY-NC-SA 4.0** where protected source material is concerned. The Hackenberg entries document limited technical numerical readings and the project's own processing; they do not grant rights to the source article, figures or dissertation. INFOGEST components retain their stated CC BY 4.0 attribution requirements.
@@ -106,3 +118,5 @@ This repository is a collection with component-specific conditions, not a blanke
 ## Deutsche Kurzfassung
 
 Dieses Repository enthält den Rechenbestand zur Monografie von Stefan Traublinger. Die deutsche und die englische Buchfassung sind über den oben genannten Zenodo-Eintrag erreichbar. Der wissenschaftliche Ausgangsbestand unter `research/` bleibt als Forschungsausgabe 1.0 unverändert, einschließlich Quellenzuordnung, Lizenzabgrenzungen und Prüfsummen. Der neue Einstieg `python run_reproduction.py` führt die vorhandenen Prüfpfade aus. Ein Triticale-Messplan und mathematische Modellnachweise ersetzen keine eigenen Back- oder Laborversuche. DNB-Katalogdaten können später ergänzt werden.
+
+Als zweite Veröffentlichung liegt der wissenschaftliche Bericht **„Rezepturpakete und isolierte Wirkungen in der Backqualität von Mischmehlen“** vor (Stefan Traublinger, 2026, Version 1.0; [DOI: 10.5281/zenodo.24571866](https://doi.org/10.5281/zenodo.24571866)). Er untersucht 26 verknüpfte Rezepturkontraste aus drei ausgewählten Quellenfamilien und die Grenzen der Zuordnung zu Einzelwirkungen und Wechselwirkungen. Volltext und Begleitmaterial sind über den eigenen Zenodo-Eintrag verfügbar. Der Bericht enthält keine eigenen Backversuche; sein Rechenbestand wird durch die oben beschriebenen Befehle zur ersten Monografie nicht automatisch mit ausgeführt.
